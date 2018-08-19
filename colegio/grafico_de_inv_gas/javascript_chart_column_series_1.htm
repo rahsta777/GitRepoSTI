@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <title id='Description'>jqxChart Column Series Example</title>
+    <link rel="stylesheet" href="styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="jqxcore.js"></script>
+    <script type="text/javascript" src="jqxchart.js"></script>
+    <script type="text/javascript" src="jqxdata.js"></script>
+    <link href="stilo_div.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+            // prepare chart data as an array
+            
+            var  sampleData = [
+                    { Day:'Lunes', 91: 100, 95: 15, George: 25, Fabian: 18},
+                    { Day:'Martes', 91: 80, 95: 15, George: 30, Fabian: 18},
+                    { Day:'Miercoles',91: 50, 95:15, George: 25, Fabian: 18},
+                    { Day:'Jueves', 91:90, 95:15, George: 45, Fabian: 18},
+                    { Day:'Viernes', 91:65, 95:15, George: 25, Fabian: 18},
+                    { Day:'Sabado', 91:20, 95:15, George: 30, Fabian: 18},
+                    { Day:'domingo',91:100, 95:15, George: 90, Fabian: 18}
+                ];
+
+            // prepare jqxChart settings
+            var settings = {
+                title: "Indice de ventas en gasolinera",
+                description: "Expresado en Meses",
+				enableAnimations: true,
+                showLegend: true,
+                padding: { left: 5, top: 5, right: 5, bottom: 5 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+                source: sampleData,
+                categoryAxis:
+                    {
+                        dataField: 'Day',
+                        showGridLines: true
+                    },
+                colorScheme: 'scheme01',
+                seriesGroups:
+                    [
+                        {
+                            type: 'column',
+                            columnsGapPercent: 50,
+                            seriesGapPercent: 0,
+                            valueAxis:
+                            {
+                                unitInterval: 10,
+                                minValue: 0,
+                                maxValue: 100,
+                                displayValueAxis: true,
+                                description: 'BsF/Lts',
+                                axisSize: 'auto',
+                                tickMarksColor: '#888888'
+                            },
+                            series: [
+                                    { dataField: '91', displayText: '91 octanos'},
+                                    { dataField: '95', displayText: '95 octanos'},
+                                    
+                                    
+                                ]
+                        }
+                    ]
+            };
+            
+            // setup the chart
+            $('#jqxChart').jqxChart(settings);
+
+        });
+    </script>
+    <link href="css/stilo_div.css" rel="stylesheet" type="text/css" />
+</head>
+<body >
+<div  class="pweb_menu">
+<div class="contenedor"> 
+	<div style='height: 600px; width: 682px;'>
+    <div id='host' style=" width:680px; height:400px;">
+		<div id='jqxChart' style="width:680px; height:400px; position: relative; left: 0px; top: 0px;">
+		</div>
+	</div>
+    </div>
+</div><!--CONTENEDOR -->
+</div><!--pweb -->  
+</body>
+</html>

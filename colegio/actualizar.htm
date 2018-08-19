@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="richard" />
+
+	<title>Untitled 2</title>
+</head>
+
+<body>
+
+ <form  method="POST" action="tab_reg_datos.php" enctype="multipart/form-data" >
+				<div  style="color: #FFF; font-size:0px;"><?php $fecha = date("d-m-Y");?></div>
+				<div class="tabs">
+                        <input type="submit" style="background:url(images/fondo_input/fondo_input_g.png);width:52px;" name="insertar registro"  value="[Enviar]"\>
+                        <a href="menu.php"> <input type="button" style="background:url(images/fondo_input/fondo_input_g.png);width:68px;" value="[Retornar]" ></a>
+                        <input type="reset" name="Limpiar" id="limpiar" style="background:url(images/fondo_input/fondo_input_g.png);width:68px;"  value="[Resetear]" />
+                	
+					<!--======================================================================================================================================------------>
+					<div class="tab"  >
+						<input type="radio" id="tab-1" name="tab-group-1" checked>
+						<label for="tab-1" class="header2" >
+							Representante
+						</label>
+						<div class="content" >
+							 <div id="fila_p">
+								<div class="fila" >
+                                
+								<table class="contacto"  id="dato"   >  
+                                      <tr>  <div><td><p>C&eacute;dula:
+                                        <td><input type="text" id="cedx" name="cedx" size="15" onchange="cedula_val()">
+                                        <a><img id="ayuda_ced_01" src="images/ayuda.gif"></a>
+                                        <div id="msn_ced01"  class="contacto_v"> <strong>Debes Ingresar los Valores N&uacute;mericos de la cedula con el formato: Vv(Ee)-99.999.999 es decir ejemplo 13.996.855 seria V-13.996.855 sin espacios en blanco</strong></div>
+                                        </p></div>
+                                        
+                                        <!--tr>  <div><td><p>C&ocutedigo:
+                                        <td><input type="text" id="id_fam" name="id_fam" size="15" onchange="val()">
+                                        <a><img id="ayuda_ced_01" src="images/ayuda.gif"></a>
+                                        <div id="msn_ced01"  class="contacto_v"> <strong>Debes Ingresar los Valores N&uacute;mericos de la cedula con el formato: Vv(Ee)-99.999.999 es decir ejemplo 13.996.855 seria V-13.996.855 sin espacios en blanco</strong></div>
+                                        </p></div-->
+                                        
+                                       
+                                        
+                                       <tr>  <div><td><p>Nombres  :
+                                        <td><input type="text" name="nomb" id="nomb"  size="35" onchange="palabras()" >
+                                         <a><img id="ayuda_nom_01" src="images/ayuda.gif"></a>
+                                        <div id="msn_nom01"  class="contacto_v"> <strong>Debes Ingresar los Nombre y apellido Sin espacio</strong></div>
+                                        <div ></div>
+                                        
+                                        </div>
+                                        <tr> <div><td><p>Apellidos:
+                                        <td><input type="text" name="apell" size="35" id="apell"   onchange="palabras2()"> 
+                                        </p></div>
+                                        
+                                      <tr>   <div><td> <p>Tel&eacute;fono:
+                                        <td><input type="text" name="telef" id="telefono" size="27">
+                                        </p></div>
+                                        
+                                         <tr>   <div><td> <p>Domicilio de Residencia:
+                                        <td><input  type="text"  name="domici" id="domici" size="27">
+                                        </p></div>
+                                        
+                                        <?php $fecha = date("d-m-Y");?>
+                                      <tr>   <div><td><p>Fecha de Registro:
+                                        <td><input type="text" name="fech"  id="fech" value="<?php echo $fecha ;?>"  class="fechfam">
+                                        
+   
+                                        </p></div>
+                                                                               
+                                        <tr>  <div><td><p>Email:
+                                        <td><input type="text" name="correo" id="correo"  onchange="VerifyEmail();">
+                                        <a><img id="ayuda_sueld_01" src="images/ayuda.gif"></a>
+                                        <div id="msn_sueldo01"  class="contacto_v"> <strong>Debes Ingresar los Valores N&uacute;mericos o Cifra con el formato:99.999,99 es decir ejemplo 1500,50 seria 1.500,50 sin espacios en blanco</strong></div>
+                                        </p></div>
+                                        <tr>
+                                          <td >Foto Registro:</td>
+                                          <td><input type="file" name="imagen1" id="imagen1" /></td>
+                                        </tr>
+                                        
+                                        <?php        ?>
+                                     </p></div>
+                                        
+                                        </table>
+													<!-----------------------------------------------fin S1B----------------------------------------------------->
+													</div><!-- div fila -->
+													</div><!-- div fila_p -->
+													<!--fila hacen el efecto tabulador-->
+													</div><!-- fin de content---->
+													</div><!-- fin class tab 1 ------->
+        </form   >                                            
+
+</body>
+</html>

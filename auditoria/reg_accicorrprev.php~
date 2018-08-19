@@ -1,0 +1,133 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<html>
+<head>	
+
+<script>
+                                    	
+/**************************************************/
+	
+/**************************************************/
+	$(function() {
+	$( "#fecha" ).datepicker({ 
+                                    		 autoSize: true,
+                                                dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+                                                dayNamesMin: ['Dom', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+                                                firstDay: 1,
+                                                monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+                                                monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
+                                                dateFormat: 'dd/mm/yy',
+                                                changeMonth: true,
+                                                changeYear: true,
+                                    			yearRange: "-90:+0",
+                                    			
+                                    		
+                                    		});
+               		
+                                    	});
+  </script> 
+
+
+
+
+</head>
+ 
+<body>
+    
+<div style="padding:25px;">
+<form action="reg_accicorrprev2.php" name="form_regaudit" method="post" >
+        <div class="columna">
+		<fieldset>
+		    
+        	<dl>
+			 <dt><div>N&uacutemero de Accion Correctiva/Preventiva</div></dt>
+                <dd><input type="text" name="num_correcprev" id="cod_correcprev"  maxlength="6" /></dd>
+			</dl>
+ <div id="msn" style="display:none"> Debe Ingresar Digitos Alfanumerico</div>
+            <dl>
+			 <dt><div>Descripci&oacute;n:</div></dt>
+			    <dd><input type="text" name="desc_correcprev" id="descp_correcprev"/></dd>
+			</dl>
+<dl>
+<dt><div>Metodologia:</div></dt>
+			    <dd><textarea name="metodo_accion" cols="25" rows="5">Analisis de la No-Conformidad</textarea></dd>
+			</dl>
+<dl>
+<dt><div>Herreamientas:</div></dt>
+			    <dd><textarea name="herra_accion" cols="25" rows="5">Analisis de la No-Conformidad</textarea></dd>
+</dl>
+<dl>
+<dt><div>Accion Aplicar:</div></dt>
+			    <dd><textarea name="accion_aplica" cols="25" rows="5">Analisis de la No-Conformidad</textarea></dd>			
+</dl>
+            <dl>
+			 <dt><div>C&eacute;dula proponente:</div></dt>
+			    <dd> <?php       
+               include("conexion/Conexion1.php");
+              $link = Conectarse();                      
+                                    	$cursor ="SELECT * from j008t_ced_proponente";
+                                    	$result=mysql_query($cursor, $link);
+                                    		echo "<select name='num_ced_propo_corre'>";
+                                     while($row = mysql_fetch_array($result)){
+                                            ?>
+																																														<option value= "<?= $row['num_ced_proponente']; ?> "><?=$row['num_ced_proponente']." ".$row["descri_proponente"]; ?></option>
+
+                                            <?php
+                                        }
+                                    ?>
+                                   	<option selected>Ninguno </select> </select>
+			   </dd>
+			</dl>
+
+
+<dl>
+<dt><div>Co Aprobado:</div></dt>
+			    <dd><input type="text" name="coapro_corr" id="ced"  class="cedula"  /></dd>
+</dl>
+<dl>
+<div>
+<dt><div>Co C&eacutedula:</div></dt>
+			    <dd><input type="text" name="coced_corr" id="ced"  class="cedula"  /></dd>
+<div class="msnced" id="msn" style="display:none"> Ingresar c&eacute;dula con el (E)o V-99.999.999
+</div> 
+			</dl>
+<dl>
+<dt><div>Comentario:</div></dt>
+			    <dd><textarea name="comentario_accion" cols="25" rows="5"></textarea></dd>
+</dl>
+<dl>
+<dt><div>Fecha Entrega:</div></dt>
+<dd><input type="text" name="num_fechentrega_corr"    id="fecha" class="fecha1" /></dd>
+</dl>
+
+<dl>
+<dt><div>Fecha De Culminacion:</div></dt>
+<dd><input type="date" name="num_fech_culm_corr"    id="fecha" class="fecha1" /></dd>
+			</dl>
+
+                       
+           
+     <dl>
+            <dt><div>Aprobado Por:</div></dt>
+			    <dd><input type="text" name="nombr_aproba_corre" id="nombr_aproba_corre" size="25"  /></dd>
+			</dl>
+           
+           
+			</dl>
+           
+			
+			
+            </fieldset>
+            </div>
+            <!----------------------------------------------------------->
+           
+        <!---............................................................-->
+		    
+            <fieldset class="action">
+		     <input type="submit" name="Enviar" id="submit" value="Enviar" />
+		    </fieldset>
+		    
+           
+		</form>
+</div>
+</body>
+	</html>	   

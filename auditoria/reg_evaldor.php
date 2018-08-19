@@ -1,0 +1,81 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<html>
+<head>	
+<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Leidy" /> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
+<script type="text/javascript">
+
+function registra_ajax(elemento)
+ {
+       	var var1=(document.getElementById("num_ced_evaldor").value);
+        var var2=(document.getElementById("tex_desc").value);
+        //var var2=(document.getElementById("login").value);
+        alert("paso; var1")+var1+"var2:"+var2;
+  if ((var1.length==0) )
+  { 
+    alert("debe llenar todos los campos")+var1.length;
+  }
+  else{
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("la_consulta").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("POST","reg_evaldor2.php?var1="+var1+"&var2="+var2,true);
+
+
+xmlhttp.send();
+
+}
+	}
+     </script>
+</head>
+<body>
+<div style="padding:25px;">
+<form action="reg_evaldor2.php" method="post" >
+        <div class="columna">
+		<fieldset>
+		     
+	
+        	<dl>
+			 <dt><div>Numero de Cargo:</div></dt>
+                <dd><input type="text" name="num_ced_evaldor" id="num_ced_evaldor" size="12"  /></dd>
+			</dl>
+            <dl>
+			 <dt><div>Descripcion:</div></dt>
+			    <dd><input type="text" name="tex_desc" id="tex_desc" size="25" maxlength="128" onkeyup="registra_ajax(this.value)"/></dd>
+			</dl>
+         
+			 
+    <dl>
+			 
+			</dl>
+			
+			
+            </fieldset>
+            </div>
+            <!----------------------------------------------------------->
+           
+        <!---............................................................-->
+		    
+            <fieldset class="action">
+		     <input type="submit" name="Enviar" id="submit" value="Enviar"  onclick="registra_ajax()"/>
+		    </fieldset>
+		    
+           
+		</form>
+</div>
+</body>
+	</html>	   

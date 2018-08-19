@@ -1,0 +1,322 @@
+/*CSS sobre selector de identificador*/
+body {
+	
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #ddd url(../images/bg10.jpg) repeat top left ;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+
+}
+
+#cabecera {letter-spacing:-1px; font-weight:normal;font-weight:bold;text-shadow:}
+.header {
+	font-size:20px;
+    text-shadow:#006 -2px 0px 3px, #aaa 0px -2px 3px, #ccc 0px 2px 3px, #777 2px 0px 3px;
+}
+.header2 {
+	font-size:20px;
+    text-shadow:#006 -2px 0px 3px, #aaa 0px -2px 3px, #ccc 0px 2px 3px, #777 2px 0px 3px;
+}
+.clr{
+	clear: both;
+	padding:10px;	
+}
+.pweb{
+	position: absolute;
+	top:0px;
+	margin-top:10px;
+	margin-bottom:40px;
+	padding:10px;
+	width:920px;
+	height:760px;
+	background:#036;
+	border-radius:10px;
+	box-shadow:1px 10px 2px rgba(,0,0,0.1);
+	opacity:.90;
+	left: 25px;
+	}
+.contenedor 
+{
+	padding:5px;
+	width:900px;
+	height:650px;
+	top:50px;
+	left:20px;
+	border-radius:10px;
+	box-shadow:1px 10px 2px rgba(255,255,255,255);
+	position: absolute;
+}
+ .contenedor_datos
+{ 
+ 
+background:url(../images/bg8.jpg);
+width:880px;
+height:500px;
+border-radius:10px;
+box-shadow:1px 4px 2px rgba(0,0,0,0.1);
+}
+.codrops-top{
+	left:28px;
+	top:3px;
+	line-height: 30px;
+	font-size: 15px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 8px 2px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding:10px 20px 10px 30px;
+	width:870px;
+	
+	}
+
+/* ejemplo del primer Div */
+
+/* fin del ejemplo del primer Div */
+
+
+/* ejemplo del menu con Div */
+
+/* fin ejemplo del menu con Div */
+
+/* estilo del ejemplo 1 */
+
+/* fin estilo del */
+
+
+
+#limpiar_border {
+	width:450px;
+	position: absolute;
+	background:#ddd url(../images/bg31.jpg);
+	border: #006 solid 4px;
+	clear: both;
+	left: 405px;
+	top: 110px;
+	height: 118px;
+	
+
+      } 
+/*  propiedades tab*/
+
+.contacto_tab{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	
+}
+.contacto_tab input {
+    padding: 5px 5px;
+    width: 50px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+
+/*  propiedades input formuario */
+.contacto_v{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+.contacto_v input {
+    padding: 5px 5px;
+    width: 50px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+/*  propiedades input menu */
+.contacto_menu{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+
+}
+.contacto_menu input {
+    padding: 5px 5px;
+    width: 150px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+/*                              */
+#dato_login{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding:5px;
+	color: #06C;
+	background: #CCC;
+   	border-radius:10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	
+
+}
+.cuadro_login{
+    top:3px;
+    left:8px;
+	width:380px;
+	height:250px;
+	font-size:25px;
+    position: absolute;
+	border: 1px solid #CED5D7;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+.cuadro_login input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+}
+.cuadro_login input {
+    padding: 5px 5px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    margin: 5px;
+	
+}
+.contacto{
+	width:300px;
+	border: 1px solid #CED5D7;
+    padding: 10px;
+    margin-top:5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	left:250px;
+	position:relative;
+}
+.contacto input {
+    padding: 5px 5px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+.contacto input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #00C;
+	
+}
+
+	
+/*  fin propiedades imput formuario */
+
+/*  formato  recibo de pago */
+#dato{padding:10px;}
+#dato input{
+    background:url(../images/fondo_input/fondo_input_g.png);
+    }
+#dato_reg{padding:5px;}
+#box_reg{
+	opacity:.70;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding:0px;
+	color:#00F;
+	display: table-cell;
+	background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+.bordes_redondo{
+	
+	border: 3px solid #FFF;
+	padding: 0px 10px 5px 3px;
+	margin-top: 10px;
+	background-color:#c0c0c0;
+	border-radius: 10px;
+	box-shadow:1px 5px 2px rgba(0,0,0.2);
+	opacity:0.6px;
+	width:300px;
+	position: relative;
+	left:250px;
+	height:40px;
+	}
+.titulo_mod{
+color:#009;font-weight:bold;text-align:center;text-shadow:#ffff;font-size:24px;width:70%;height:30px;padding:10px 10px 10px 5px;float:left;
+	}
+#titulo{
+	width:200px;
+		}
+        
+
+	
+#titulo_d{
+	float:left;
+	margin:10px;
+ 	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	}
+#dato_der{
+      
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding:2px 3px 1px 5px;
+	color:#00F;
+	display: table-cell;
+	background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	/*
+	
+	border-radius:10px;
+	box-shadow:2px 2px 25px rgba(0,0,0.1);opacity:.70; */
+	
+}
+#dato_der input {
+  width:80px;
+  border: 1px solid #CED5D7;
+    box-shadow:0 0 0 2px #EEF5F7;
+ } 
+#dato_der input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #00C;
+	
+}  
+.fila{
+	display: table-row;
+	
+	}
+	#fila_p{
+		position:absolute;
+		right:55px;
+		}
+	 
+#columna{
+	display:table-column;
+	}
+#imagen
+	{
+
+		
+	}
+.resalta_result input
+{
+font-style: normal;
+font-family:Verdana, Geneva, sans-serif, #006;
+font-size:15px;
+  
+}	
+	/*background:url(images/user_procesor.png) bottom no-repeat;*/

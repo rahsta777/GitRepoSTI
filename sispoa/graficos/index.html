@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            window.onload = function () {
+                var dataLength = 0;
+                var data = [];
+                $.getJSON("datapanama.php", function (result) {
+                    dataLength = result.length;
+                    for (var i = 0; i < dataLength; i++) {
+                        data.push({
+                            x: parseInt(result[i].valorx),
+                            y: parseInt(result[i].valory)
+                        });
+                    }
+                    ;
+                    chart.render();
+                });
+                var chart = new CanvasJS.Chart("chart", {
+                    title: {
+                        text: "Valores X vs. Valores Y"
+                    },
+                    axisX: {
+                        title: "Valores X",
+                    },
+                    axisY: {
+                        title: "Valores Y",
+                    },
+                    data: [{type: "bar", dataPoints: data}],
+                });
+            }
+        </script>
+        <!--script type="text/javascript" src="canvasjs.min.js"></script>
+        <script type="text/javascript" src="jquery-2.2.3.min.js"></script-->
+    </head>
+    <body>
+        <div id="chart" style="width: 400px; height: 400px; margin: 1 auto">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+
+
+        * Alexis Jean Pierre Mendoza Lezama
+        *
+        * feb 21 a las 9:09 PM
+
+Para
+
+        * Richard Alberto Henriquez Solorzano
+
+Saludos,
+
+Como te había comentado la ultima vez que nos reunimos, ellos en la escuela como tal no tiene un plan de evaluación como el que vemos normalmente en las escuelas.
+
+Hay dos Niveles
+
+Nivel Básico: este nivel esta conformado por Grado 1, Grado 2 y Grado 3 
+
+Nivel Avanzado: Grado 4, Grado 5 y Grado 6
+
+Los que se quiere hacer acá en el programa, es que el profesor acceda a la sección de Plan de Evaluación y genere el plan por cada Semestres (6 meses), cuando el profesor ponga el nivel que le corresponda impartir, este debe también poner los grados que quiera ense;ar, aquí es cuando se pone en funcionamiento lo que quiero, el al poner 
+
+Nivel Básico solo se le debe permitir ingresar del Grado 1 al 3
+Nivel Avanzado del Grado 4 al 6
+
+una vez que el seleccione el nivel y los grados (porque puede poner que para le nivel básico solo dará 1 y 3) le tendrá que dar a un botón que diga generar plan, que almacene esa información y al mismo tiempo la imprima o puedes poner un botón de imprimir y otro de generar para que almacene en la base de datos, cuando le de imprimir debe salir las imágenes que te mande de las letras chinas segun lo que haya seleccionado
+
+
+

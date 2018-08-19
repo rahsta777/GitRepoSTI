@@ -1,0 +1,193 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
+<link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/sddm.css" >
+<link rel="stylesheet" type="text/css" href="css/style_audit.css" >
+<script type='text/javascript' src='js/func_menu.js'></script>
+<script language="javascript" type="text/javascript" src="js/niceforms.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="css/niceforms-default.css" />
+</head>
+	<body>
+ <!--=========================================================================================-->        
+  <?php 
+include("conexion/Conexion1.php");
+$link=Conectarse(); 
+include("fnc/f_fecha.php");
+if(isset($_POST["id_local"]))
+{
+    $id_x=$_POST["id_local"];
+    $localiza_x=$_POST["variable1"];
+    $localiza_x2=$_POST["variable2"];
+			 //echo "id: [".$id_x."] Tipo: [".$localiza_x."] la Consulta: [".$localiza_x2."]";
+/*=======================[programacion]========================================*/
+		      if($localiza_x=="programacion"){
+            $busqueda0="SELECT * FROM d001_programa_aud WHERE num_detalle='" . $_POST['id_local'] . "' ";
+            $resultquery0=mysql_query($busqueda0);
+             if($resultquery0 ==FALSE) 
+                {
+                 die(mysql_error()); // TODO: better error handling
+                } /*fin del if error sql*/
+      	while($filas0=mysql_fetch_array($resultquery0))        
+            {
+														  $id=$filas0['num_detalle'];
+																$descrip1=$filas0['descrp_program'];
+                $fecha0=$filas0['fe_fecha']; 
+ 															$numfilia0=$filas0['num_filial'];
+																$numcargo0=$filas0['num_cargo'];	
+             	$num_fech_normal=cambia_fecha_a_normal($fecha0); 
+               		//echo "programacion id:[".$numcargo0."]";
+																	//echo "Descrip :[".$descrip1."]";
+										/*****************************cargos asociado al programa***************************/
+          if (isset($numcargo0)){
+            $sqlCargos="SELECT * FROM i006t_cargo WHERE num_cargos='" . $numcargo0 . "' ";
+            $queryCargos=mysql_query($sqlCargos);
+																		while($local=mysql_fetch_array($resultquery0))        
+																								{
+																										$descrip_cargo=$local['descrip_cargos'];
+																											$cod_cargox=$local['num_cargos'];
+    																					echo "descripCargo: ".$descrip_cargo."Id: ".$cod_cargox;
+																								}	
+
+														}
+														/**************************************/
+/***************************[formulario]*****************************/
+?>
+<form action="reg_progcio_audit2.php" method="post" >
+<div id="box3" style="	width:300px;" >        
+<div class="columna" >
+		<fieldset>
+		     <legend><img src="images/HP-MSN1.png" width="30px">Detalle <?php echo $localiza_x; ?> </legend>
+	
+        	<dl>
+			 <dt><div>Numero de Detalle Programacion:</div></dt>
+                <dd><input type="text" name="num_detall_prog" id="num_unit" value="<?php echo  $id; ?>" size="20px"/></dd>
+			</dl>
+            
+            <dl>
+			 <dt><div>Descripci&oacute;n:</div></dt>
+			    <dd><input type="text" name="num_desc_prog" id="descp_unit" value="<?php echo $descrip1; ?>" /></dd>
+			</dl>
+            <dl>
+			 <dt><div>N&uacutemero de cargo:</div></dt>
+			    <dd> <input type="text" name="num_carg_prog" id="num_carg_prog" value="<?php echo $numcargo0; ?>" /></dd>
+
+   <dt><div>N&uacutemero de filial:</div></dt>
+			    <dd> <input type="text" name="num_filial_prog" id="num_filial_prog" value="<?php echo $numfilia0 ; ?>" /></dd>
+
+<dt><div>N&uacutemero de Gerencia:</div></dt>
+<dd><input type="text" name="num_grcia_prog" id="num_grcia_prog" value="<?php echo $numfilia0 ; ?>"  /></dd>			    
+
+
+<dt><div>N&uacutemero de Unidad:</div></dt>
+<dd><input type="text" name="num_unid_prog" id="num_unid_prog" value="<?php echo $numfilia0; ?>"  /></dd>			    
+
+
+<dt><div>Fecha Detalle:</div></dt>
+			    <dd><input type="text" name="num_fech_prog"  value="<?php echo $num_fech_normal; ?>" /></dd>
+			</dl>
+
+
+           
+            </fieldset>
+            </div>
+          
+		    
+            <fieldset class="action">
+		     <input type="submit" name="Enviar" id="submit" value="Enviar" />
+<?php 
+		         print (" <P id='contacto' ALIGN='CENTER'> <A HREF='index0.php' TARGET='_top'> <input type='button' style='background:url(images/fondo_input/fondo_input_g.png);' value='[Ir Home]' ></A> </P>\n");
+		    ?>
+		    </fieldset>
+		    
+           
+		</form>
+ </div>
+<?php 
+     								}
+/***************************[fin formulario]*****************************/
+   }/* fin if programacion
+/*=======================[end programacion]========================================*/
+        if($localiza_x=="auditoria"){
+            $busqueda1="SELECT * FROM d003t_detalle_aud WHERE num_auditoria1='" . $_POST['id_local'] . "' ";
+								 $resultquery1=mysql_query($busqueda1);
+      if($resultquery1 ==FALSE) 
+                {
+                 die(mysql_error()); // TODO: better error handling
+                } /*fin del if error sql*/
+      	while($filas1=mysql_fetch_array($resultquery1))        
+            {		
+                		$id=$filas1['num_auditoria1'];
+																		$descrip1=$filas1['tex_Descrp'];
+																	echo "Auditorias id:[".$id."]";
+																	echo "Descrip :[".$descrip1."]";
+      						}
+/***************************[formulario]*****************************/
+
+
+
+
+
+
+/***************************[fin formulario]*****************************/
+
+										}
+/*=======================[end auditoria]========================================*/
+     //echo $localiza_x;
+        if($localiza_x=="plan")  { 
+        $busqueda2="SELECT * FROM j005t_planes WHERE num_planes='" . $_POST['id_local'] . "' ";
+        $resultquery2=mysql_query($busqueda2);
+if($resultquery2 ==FALSE) 
+                {
+                 die(mysql_error()); // TODO: better error handling
+                } /*fin del if error sql*/
+      	while($filas2=mysql_fetch_array($resultquery2))        
+            {		
+			$id=$filas2['num_planes'];
+			$descrip1=$filas2['descrp_planes'];
+			echo "Plan id:[".$id."]";
+			echo "Descrip :[".$descrip1."]";
+
+      						}
+/***************************[formulario]*****************************/
+
+
+
+
+
+
+/***************************[fin formulario]*****************************/
+       }
+/*=======================[end plan]========================================*/
+      if($localiza_x=="noconform") {   
+        $busqueda3="SELECT * FROM  d004t_nocomformidad WHERE num_audit='" . $_POST['id_local'] . "' ";
+        $resultquery3=mysql_query($busqueda3);
+          if($resultquery3 ==FALSE) 
+                {
+                 die(mysql_error()); // TODO: better error handling
+                } /*fin del if error sql*/
+      	while($filas=mysql_fetch_array($resultquery3))        
+            {	
+														$id=$filas['num_audit'];
+														$descrip1=$filas['text_descrip'];			
+																echo "Plan id:[".$id."]";
+																	echo "Descrip :[".$descrip1."]";
+
+      						}           
+									}
+/***************************[formulario]*****************************/
+
+
+
+
+
+
+/***************************[fin formulario]*****************************/
+}
+?>                                           
+           
+</body>
+</html>

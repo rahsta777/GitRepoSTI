@@ -1,0 +1,74 @@
+
+<html>
+	<body>
+ <!--=========================================================================================-->        
+  <?php 
+include("conexion/Conexion1.php");
+$link=Conectarse(); 
+if(isset($_POST["id_local"])){
+    $id_x=$_POST["id_local"];
+    $localiza_x=$_POST["variable1"];
+    $localiza_x2=$_POST["variable2"];
+			//echo "id: ".$id_x." Tipo: ".$localiza_x." la Consulta".$localiza_x2." Proceso".$proceso;
+		//echo "paso tipo ".$localiza_x;
+      if($localiza_x=="programacion")
+            $busqueda="SELECT * FROM d001_programa_aud WHERE num_detalle='" . $_POST['id_local'] . "' ";
+     
+        if($localiza_x=="auditoria")
+            $busqueda="SELECT * FROM d003t_detalle_aud WHERE num_auditoria1='" . $_POST['id_local'] . "' ";
+     //echo $localiza_x;
+        if($localiza_x=="plan")   
+        $busqueda="SELECT * FROM j005t_planes WHERE num_planes='" . $_POST['id_local'] . "' ";
+       
+      if($localiza_x=="noconform")   
+        $busqueda="SELECT * FROM  d004t_nocomformidad WHERE num_audit='" . $_POST['id_local'] . "' ";
+
+      $resultquery=mysql_query($busqueda);
+      if($resultquery ==FALSE) 
+                {
+                 die(mysql_error()); // TODO: better error handling
+                } /*fin del if error sql*/
+      while($filas=mysql_fetch_array($resultquery))        
+            {
+     /*=======================[programacion]========================================*/
+            if(isset($filas['num_detalle'])) 
+               {
+																$id=$filas['num_detalle'];
+																$descrip1=$filas['descrp_program'];
+																	$id_act=$id;
+																	?>
+
+										<?php						//$fecha1=$filas['fe_fecha'];
+            			}
+/*=======================[Plan]========================================*/
+          if(isset($filas['num_planes']))
+                  {
+																		$id=$filas['num_planes'];
+																		$descrip1=$filas['descrp_planes'];
+																		//$fecha1=$filas['fe_fecha_planes'];
+																				$id_act=$id_act;
+            	     }	
+                     
+        if(isset($filas['num_audit']))
+                  {
+																			$id=$filas['num_audit'];
+																			$descrip1=$filas['text_descrip'];
+																			//$fecha1=$filas['fe_fecha_planes'];
+																				$id_act=$id_act;
+            	     }	
+        if(isset($filas['num_auditoria1']))
+                  {
+																		$id=$filas['num_auditoria1'];
+																		$descrip1=$filas['tex_Descrp'];
+																		//$fecha1=$filas['fe_fecha_planes'];
+																			$id_act=$id_act;
+            	     }				
+    }    
+?>
+
+       <?php } /* fin while*/
+?>                                           
+           
+
+                    </body>
+					</html>

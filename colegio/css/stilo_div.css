@@ -1,0 +1,790 @@
+/*CSS sobre selector de identificador*/
+body {
+    
+	width:55%;
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background:  url(../images/bg11.png) no-repeat 	rgba(255,0,0.9)  ;
+    background-size: 130%;
+    	/*background-position: center;*/
+ 	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+
+}
+.caja{
+     alignment-adjust: central;
+	 border:1px solid #E2E2E2;
+	 border-radius:10px;
+     box-shadow:1px 1px 2px rgba(255,255,133);opacity:.90;
+	 
+}
+/*barra de menu latera izquier*/
+
+/* ~~ Selectores de elemento/etiqueta ~~ 
+ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
+	padding: 0;
+	margin: 0;
+}*/
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
+	padding-right: 15px;
+	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
+}
+
+/* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
+
+}
+
+/* ~~ este contenedor rodea a todas las demás divs, lo que les asigna su anchura basada en porcentaje ~~ */
+.container {
+	width: 70%;
+	max-width: 1260px;/* puede que sea conveniente una anchura máxima (max-width) para evitar que este diseño sea demasiado ancho en un monitor grande. Esto mantiene una longitud de línea más legible. IE6 no respeta esta declaración. */
+	min-width: 780px;/* puede que sea conveniente una anchura mínima (min-width) para evitar que este diseño sea demasiado estrecho. Esto permite que la longitud de línea sea más legible en las columnas laterales. IE6 no respeta esta declaración. */
+	background: #FFF;
+	margin:4%; /* el valor automático de los lados, unido a la anchura, centra el diseño. No es necesario si establece la anchura de .container en el 100%. */
+}
+
+/* ~~ no se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. Contiene un marcador de posición de imagen que debe sustituirse por su propio logotipo vinculado ~~ */
+.header {
+	background: #6F7D94;
+}
+
+/* ~~ Estas son las columnas para el diseño. ~~ 
+
+1) El relleno sólo se sitúa en la parte superior y/o inferior de las divs. Los elementos situados dentro de estas divs tienen relleno a los lados. Esto le ahorra las "matemáticas de modelo de cuadro". Recuerde que si añade relleno o borde lateral a la div propiamente dicha, éste se añadirá a la anchura que defina para crear la anchura *total*. También puede optar por eliminar el relleno del elemento en la div y colocar una segunda div dentro de ésta sin anchura y el relleno necesario para el diseño deseado.
+
+2) No se asigna margen a las columnas, ya que todas ellas son flotantes. Si es preciso añadir un margen, evite colocarlo en el lado hacia el que se produce la flotación (por ejemplo: un margen derecho en una div configurada para flotar hacia la derecha). En muchas ocasiones, puede usarse relleno como alternativa. En el caso de divs para las que deba incumplirse esta regla, deberá añadir una declaración "display:inline" a la regla de la div para evitar un error que provoca que algunas versiones de Internet Explorer dupliquen el margen.
+
+3) Dado que las clases se pueden usar varias veces en un documento (y que también se pueden aplicar varias clases a un elemento), se ha asignado a las columnas nombres de clases en lugar de ID. Por ejemplo, dos divs de barra lateral podrían apilarse si fuera necesario. Si lo prefiere, éstas pueden cambiarse a ID fácilmente, siempre y cuando las utilice una sola vez por documento.
+
+4) Si prefiere que la navegación esté a la derecha en lugar de a la izquierda, simplemente haga que estas columnas floten en dirección opuesta (todas a la derecha en lugar de todas a la izquierda) y éstas se representarán en orden inverso. No es necesario mover las divs por el código fuente HTML.
+
+*/
+#sidebar1 {
+	float: left;
+	width: 14%;
+	background: #93A5C4;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+
+
+/* ~~ Este selector agrupado da espacio a las listas del área de .content ~~ */
+/* este relleno reproduce en espejo el relleno derecho de la regla de encabezados y de párrafo incluida más arriba. El relleno se ha colocado en la parte inferior para que el espacio existente entre otros elementos de la lista y a la izquierda cree la sangría. Estos pueden ajustarse como se desee. */
+
+
+/* ~~ Los estilos de lista de navegación (pueden eliminarse si opta por usar un menú desplegable predefinido como el de Spry) ~~ */
+
+
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si #footer se elimina o se saca fuera de #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.content {  
+    
+background: url(../images/muralla_inic.png)no-repeat;
+
+
+} /* este margen negativo de 1 px puede situarse en cualquiera de las columnas de este diseño con el mismo efecto corrector. */
+
+.main_cont
+{
+float:right;
+position:absolute;
+width:100px;
+background-color:#4d7986;
+padding:2px;
+}
+
+.menu_top_bg
+{
+width:100%;
+background:url(../images/menu_top_bg.gif) repeat-x;
+height:22px;
+padding-top:8px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+margin-bottom:1px;
+border-radius: 10px;
+}
+
+
+
+
+/*================================*/
+#cabecera {letter-spacing:-1px; font-weight:normal;font-weight:bold;text-shadow:}
+.header {
+	font-size:0.1em;
+	
+}
+.header2 {
+	font-size:0.8em;
+    text-shadow: gray -2px 0px 3px,  #003 0px -2px 3px, #cc1 px 0px 0px,  silver 2px 0px 3px;
+}
+.clr{
+	clear: both;
+	padding:10px;	
+}
+.pweb_menu{
+	position:absolute;
+	top:10px;
+	margin-right:10%;
+	margin-left:04%;
+	/*margin-top:10px;
+	margin-bottom:40px;*/
+	padding:10px;
+	width:90%;/*70 resolocion pc de 17"*/
+	height:700px;
+	background:#036;
+	border-radius:10px;
+	box-shadow:1px 10px 2px rgba(,0,0,0.1);
+	opacity:.90;
+	
+	}
+.pweb{
+	position: relative;
+	/*top:0px;*/
+	margin-right: 10%;
+	margin-left:30%;
+	/*margin-top:10px;
+	margin-bottom:40px;*/
+	padding:10px 20px 10px 20px;
+	width:120%;/*98 mi pc de 17" 160% con 15""*/
+    min-width:98%;
+	height:600px;
+	background:rgba(90, 109, 144, 0.42) ;
+	border-radius:10px;
+	box-shadow:1px 10px 2px rgba(,0,0,0.1);
+	opacity:.90;
+    right:20px ;
+	}
+.contenedor 
+{
+	padding:5px;
+	width:50%;/*96 para pc de 17"*/
+	height:96%;
+	top:0px;
+	border-radius:10px;
+	box-shadow:1px 10px 2px rgba(255,255,255,255);
+	position:  absolute;
+}
+ .contenedor_datos
+{ 
+
+background:url(../images/bg8.jpg);
+width:100%;/*95 resolocion pc de 17"*/
+height:500px;
+border-radius:10px;
+box-shadow:1px 4px 2px rgba(0,0,0,0.1);
+top:20px; 
+}
+#contenedor_datos2
+{ 
+
+background:url(../images/bg8.jpg);
+width:95%;/*95 resolocion pc de 17"*/
+height:500px;
+border-radius:10px;
+box-shadow:1px 4px 2px rgba(0,0,0,0.1);
+position: absolute;
+top:135px; 
+}
+.codrops_menu{
+	left:2px;
+	top:15px;
+	margin-right:50%;
+	margin-left:10%;
+	line-height: 30px;
+	font-size: 15px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 8px 2px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding:5px;
+	width:150%;/*95 para pc de 17"*//*126% para pc de 15"*/
+	
+	}
+    .codro{
+	right:20px;
+	top:3px;
+    
+	margin-right:15%;
+	margin-left:30%;
+	margin-bottom:1%;
+	line-height: 30px;
+	}
+    
+.codrops-top{
+	right:20px;
+	top:3px;
+	margin-right:15%;
+	margin-left:30%;
+	margin-bottom:1%;
+	line-height: 30px;
+	
+	background: #;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 8px 2px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding:10px 20px 10px 10px;
+    width:121%;/*95 para pc de 17"*//*162% para pc de 15"*/
+    min-width:95% ;
+      
+	}
+#alinear
+{
+margin:0 auto 0 auto;
+padding:3px;
+}
+.center
+{
+margin:0 auto 0 auto;
+
+}
+
+/* ejemplo del primer Div */
+
+/* fin del ejemplo del primer Div */
+
+
+/* ejemplo del menu con Div */
+
+/* fin ejemplo del menu con Div */
+
+/* estilo del ejemplo 1 */
+
+/* fin estilo del */
+
+
+
+#limpiar_border {
+	width:450px;
+	position: absolute;
+	background:#ddd url(../images/bg31.jpg);
+	border: #006 solid 4px;
+	clear: both;
+	left: 405px;
+	top: 110px;
+	height: 118px;
+	
+
+      } 
+/*  propiedades tab*/
+
+.contacto_tab{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	
+}
+.contacto_tab input {
+    padding: 5px 5px;
+    width: 50px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+
+/*  propiedades input formuario */
+
+
+
+.contacto_v{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+.contacto_v input {
+    padding: 5px 5px;
+    width: 80px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+/*  propiedades input menu */
+.contacto_menu{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    color:#00F;
+    margin-top: 5px;
+    background:url(../images/bg8.jpg)#00F;
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+   
+}
+.contacto_menu input {
+    padding: 5px 5px;
+    width: 150px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+/*                              */
+#dato_login{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding:5px;
+	color: #06C;
+	background: #CCC;
+   	border-radius:10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	
+
+}
+.cuadro_login{
+    top:3px;
+    left:8px;
+	width:85%;
+	height:80%;
+	font-size:25px;
+    position: absolute;
+	border: 1px solid #CED5D7;
+    margin-top: 5px;
+    background:url(../images/muralla_fondo_login.png);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+.cuadro_login input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+}
+.cuadro_login input {
+    padding: 5px 5px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    margin: 5px;
+	
+}
+td{
+    padding:2px;
+    margin-bottom:2px;}
+.contacto{
+	width:97%;
+	border: 1px solid #CED5D7;
+    background:url(../images/muralla_fondo.png);
+   	border-radius: 50px 50px  50px 50px ;
+	box-shadow:1px 4px 2px rgba(,0,0,0.9);
+	
+
+}
+.contacto input {
+    padding: 5px 5px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+.contacto input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #00C;
+	
+}
+.contacto_dat{
+	width:50%;
+	border: 1px solid #CED5D7;
+    padding: 10px;
+    margin-top:5px;
+    left:15em;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	
+	position:relative;
+}
+.contacto_dat input {
+    padding: 5px 5px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 0px 0;
+	
+}
+.contacto_dat input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #00C;
+	
+}
+
+	
+/*  Cuadros para fechas */
+#dato_00{padding:7px; left:180px;width:160px;}
+#dato_00 input{
+background:url(../images/fondo_input/fondo_input_g.png);
+    }
+    
+#dato1{padding:7px; left:380px;width:309px;}
+#dato1 input{
+    background:url(../images/fondo_input/fondo_input_g.png);
+    }
+#dato2{padding:7px; width: 430px;}
+#dato2 input{
+    background:url(../images/fondo_input/fondo_input_g.png);
+    width: 89px;
+    }
+/*  formato  recibo de pago */
+#dato{padding:10px;}
+#dato input{ margin:2px;
+    background:url(../images/fondo_input/fondo_input_g.png);
+    }
+    
+#dato_menu{padding:5px;margin:8px ;width:300px;float:left;overflow: inherit;}
+#dato_menu input{
+    background:url(../images/fondo_input/fondo_input_g.png);
+    }
+#dato_reg{padding:3px;}
+#box_reg{
+	opacity:.70;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding:0px;
+	color:#00F;
+	display: table-cell;
+	background:url(../images/bg82.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+    height:20px;
+}
+#box_tabla{
+	opacity:.70;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding:0px;
+	color:#00F;
+	display: table-row;
+	background:url(../images/bg82.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+    height:10px;
+}
+.bordes_redondo{
+	color: bisque;font-weight:bold;text-shadow:#ffff;
+	border: 3px solid #FFF;
+	padding: 0px 10px 5px 3px;
+	margin-top: 5px;
+	background-color:#c0c0c0;
+	border-radius: 10px;
+	box-shadow:1px 5px 2px rgba(0,0,0.2);
+	opacity:0.6px;
+	width:50%;/*no cambiar valor*/
+	position: relative;
+	left:15em;
+	height:40px;
+    top:1px;
+	}
+    .bordes_redondo2{
+	color: bisque;font-weight:bold;text-shadow:#ffff;
+	border: 3px solid #FFF;
+	padding: 0px 10px 5px 3px;
+	margin-top: 5px;
+	background-color:#c0c0c0;
+	border-radius: 10px;
+	box-shadow:1px 5px 2px rgba(0,0,0.2);
+	opacity:0.6px;
+	width:300px;/*no cambiar valor*/
+	position: relative;
+	left:380px;
+	height:40px;
+    top:1px;
+	}
+.titulo_mod{
+color:#009;font-weight:bold;text-align:center;text-shadow:#ffff;font-size:24px;width:70%;height:30px;padding:10px 10px 10px 5px;float:left;
+	}
+#titulo{
+	width:200px;
+		}
+        
+#titulo_d{
+	float:left;
+	margin:10px;
+ 	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	}
+#dato_der{
+      
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding:2px 3px 1px 5px;
+	color:#00F;
+	display: table-cell;
+	background:url(../images/bg.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	/*
+	
+	border-radius:10px;
+	box-shadow:2px 2px 25px rgba(0,0,0.1);opacity:.70; */
+	
+}
+#dato_d{
+      
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	padding:10px 20px 1px 30px;
+	color:#FFFFFF;
+	display: table-cell;
+/*	background:url(../images/bg1.png);
+   	border-radius: 10px;*/
+   	box-shadow:1px 1px  rgba(,0,0,0.10);
+
+	/*
+	
+	border-radius:10px;
+	box-shadow:2px 2px 25px rgba(0,0,0.1);opacity:.70; */
+	
+}
+#dato_d input[type='text']:focus{
+    padding: 10px 5px 5px 10px;
+    outline: none;
+    margin: 0px 0;
+    
+    }
+.contacto_resumen{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-left:10%;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+    width:80%;
+    height:60%;
+	left:1px;
+    
+}
+
+.contacto_resumen2{
+    border: 1px solid #CED5D7;
+    padding: 5px 5px 5px 5px;
+    margin-left:10%;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+    width:90%;
+    height:60%;
+    position:absolute;
+	right:40px;
+    top:30px;
+    
+}
+.contacto_resumen3{
+    border: 1px solid #CED5D7;
+    padding: 1px 1px 1px 1px;
+    margin-left:10%;
+    background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+    width:90%;
+    height:60%;
+    position:absolute;
+	right:40px;
+    top:100px;
+    
+}
+
+#box2{
+    font-family:Verdana, Geneva, sans-serif;
+	margin-top:20px;
+   border: 1px solid #CED5D7;
+    left:20px;
+    width: 420px;
+	padding:10px 7px 5px 6px;
+	font-size:12px; 
+    color:#00F;
+	display: table-cell;
+	background:url(../images/bg8.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+#box2 input[type='text']:focus{
+    padding: 10px 5px 5px 10px;
+    outline: none;
+    margin: 0px 0;
+    
+    }
+#box_conectar{
+    font-family:Verdana, Geneva, sans-serif;
+	margin:30px;
+    border: 1px solid #CED5D7;
+    width: 420px;
+   	height:200px;
+	padding:10px 7px 5px 6px;
+	font-size:12px; 
+    display: table-cell;
+	background:url(../images/bg1.png);
+   	border-radius:10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+#box_conectar input[type='text']:focus{
+    padding: 10px 5px 5px 10px;
+    outline: none;
+    margin: 0px 0;
+    
+    }
+  #fila_conectar{
+	position:absolute;
+	top:277px;
+	left:40%;
+	width:503px;
+	height:295px;
+	margin-left:-20px;
+	margin-top:-20px;
+	margin-botton:-20px;
+	/*right:168px;/*esto modifica la posicion hacia izquierda++ y derecha-- del datos consulnom*/
+      /*   top: 267px;/*esto modifica la posicion hacia abajo++ arriba-- del datos consulnom*/
+		}
+ #aline_imagen{
+	position:absolute;
+    width:80px;
+	height:29%;
+    bottom:5%;
+	left:117%;
+
+    
+		}
+      
+#box_resum_nom{
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding:2px 3px 1px 5px;
+	color:#00F;
+	 margin-left:04%;
+	background:url(../images/bg82.png);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+     width:90%;
+     left: 80%;
+    
+}
+
+ .imgclase{
+	display:block;
+	margin:35px auto 0px auto;
+	-moz-box-shadow:0px 0px 7px #222;
+	-webkit-box-shadow:0px 0px 7px #222;
+	box-shadow:0px 0px 7px #222;
+	border: 8px solid transparent;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	margin-left:-200px;
+	margin-top:-150px;
+    }
+    
+
+#dato_der input {
+  width:80px;
+  border: 1px solid #CED5D7;
+  box-shadow:0 0 0 2px #EEF5F7;
+ } 
+#dato_der input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #00C;
+	
+}  
+.fila{
+	display: table-row;
+	
+	}
+	#fila_p{
+		position:absolute;
+		left:20%;
+        top:10%;
+       
+
+
+  
+	/*right:168px;/*esto modifica la posicion hacia izquierda++ y derecha-- del datos consulnom*/
+      /*   top: 267px;/*esto modifica la posicion hacia abajo++ arriba-- del datos consulnom*/
+		}
+	#fila_p1{
+		position:absolute;
+		left:20%;
+	/*right:168px;/*esto modifica la posicion hacia izquierda++ y derecha-- del datos consulnom*/
+      /*   top: 267px;/*esto modifica la posicion hacia abajo++ arriba-- del datos consulnom*/
+		}
+        #fila_p2{
+		position:absolute;
+		left:20%;
+        top:60px;
+
+
+  
+	/*right:168px;/*esto modifica la posicion hacia izquierda++ y derecha-- del datos consulnom*/
+      /*   top: 267px;/*esto modifica la posicion hacia abajo++ arriba-- del datos consulnom*/
+		}
+#fila_ptab{
+	position:absolute;
+	right:80px;/*no cambia modifica la posicion de los tab de inv ghas*/
+	top: 25px;
+		}
+#columna{
+	display:table-cell;
+	}
+#imagen
+	{
+    width:200%;
+   	height:110px;
+	max-width:125%;
+    background: url(../images/Top1.jpg)no-repeat ;
+    margin-left:28%;
+  	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+		
+	}
+
+/*===============================================*/
+
+/*============================================*/
+.resalta_result input
+{
+font-style: normal;
+font-family:Verdana, Geneva, sans-serif, #006;
+font-size:15px;
+  
+}
+.posicion {
+        position:relative;
+		left: 100px;
+		top: 150px;
+        float:left;
+
+    
+}	
+	/*¡?=)===================================ayuda y validacion ajax;)==================================*/
