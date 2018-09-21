@@ -1,0 +1,252 @@
+
+.main{
+    margin: 1%;
+    }
+.columna{
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+display: table-cell;
+}        
+.frame1{
+  background:url(../images/plateados02.jpg) no-repeat;
+  padding:20px;
+  border-radius: 10px; 
+  box-shadow:1px 4px 2px rgba(56, 81, 128, 1);
+}
+
+
+
+
+h2{
+ font-family: "Bab", sans-serif,bold;text-shadow: black 0.1em 0.1em 0.2em}
+#fuentes {letter-spacing:-1px;font-family: "Babylon2", sans-serif,bold;text-shadow: black 0.1em 0.1em 0.2em;}
+/*#dato_login{
+	font-family:Verdana, Geneva, sans-serif;
+	width:90%;
+	font-size:14px;
+	padding:5px;
+	color: #06C;
+	background: #808000;
+	-pie-background: #808000;
+   	border-radius:20px 100px 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	behavior: url(pie/PIE.htc);*/
+.cuadro_login {
+	top:3px;
+	left:8px;
+	width:80%/*410px*/;
+	height:230px;
+	font-size:25px;
+	position: absolute;
+	border: 1px solid #CED5D7;
+	margin-top: 5px;
+	border-radius: 60px 0 60px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+	behavior: url(pie/PIE.htc);
+}
+
+#dato{padding:15px;}
+#dato input:focus{
+    background:url(../images/button4a.gif);
+    }
+.clearfloat { /* esta clase puede situarse en una <br /> o div vac�a como elemento final tras la �ltima div flotante (dentro de #container) si #footer se elimina o se saca fuera de #container */
+	clear:both;
+	height:10px;
+	line-height: 0px;width: 1%;
+}
+
+#b0{float:left; font-family:"ghostclanexpand",sans-serif,bold;font-size:30px;color:#0066ff; text-shadow: black 0.1em 0.1em 0.2em;float:left;padding:0px;margin-right:15px;margin-left:5px;position:absolute;}
+#b1{float:left;padding:5px;margin-left:0px;margin-right:10px;margin-top:15px;}
+@font-face {
+	font-family: "Bad";
+      	src: url("ttf/Bad.ttf");
+ }
+#b2{float:left; font-family:"Bab",sans-serif,bold;font-size:18px;color: #0039a3; text-shadow: black 0.1em 0.1em 0.2em; border-radius: 0px 65px 65px 0px;box-shadow:1px 4px 2px rgba(56, 81, 128, 1);float:left;padding:5px;margin-right:15px;margin-left:5px; }
+#b3{position:absolute;right:2px;top:30px; border-radius: 10px;box-shadow:1px 4px 2px rgba(56, 81, 128, 1);float:left;padding:10px;margin-left:5px;}
+#b4{ border-radius: 10px;box-shadow:1px 4px 2px rgba(56, 81, 128, 1);float:left;padding:2px;margin-left:5px;}
+#barra1{font-family:Verdana, Geneva, sans-serif;
+	margin:1%;
+    	border: 1px solid #CED5D7;
+    	width:98%;
+	padding:10px ;
+	font-size:12px; 
+    	color:#00F;
+    	height:80px ;
+	background:url(../images/plateados021.jpg);
+   	border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(56, 81, 128, 1);
+}
+
+.pweb{
+	position: relative;
+	/*top:0px;*/
+	margin-right:10%;
+	margin-left:20%;
+	/*margin-top:10px;
+	margin-bottom:40px;*/
+	padding:10px 20px 10px 20px;
+	width:80%;/*98 mi pc de 17" 160% con 15""*/
+        min-width:50%;
+	height:20px;
+	opacity:.90;
+        right:20px ;
+	}
+
+
+#fila{
+	display: table-row;
+
+	}
+.fila{
+	display: table-row;
+	position:absolute;
+	}
+	#fila_p{
+		position:absolute;
+		left:20%;
+        top:10%;
+       
+}
+
+  
+.contenedor 
+{
+	padding:0px;
+	width:90%;/*96 para pc de 17"*/
+	margin:2%;
+ height:120%;
+ border-radius:10px 5px;
+	box-shadow:1px 10px 2px rgba(86, 137, 230, 0.52);
+	position:  relative;
+}
+#fondoPrincipal 
+{
+    margin-top:-70px;
+    margin-left:40px;
+    width:70%;/*96 para pc de 17"*/
+    height:80%;
+    background:url(../images/fondo_inicial.png) no-repeat;
+    border-radius:10px 5px;
+    box-shadow:1px 10px 2px rgba(56, 81, 128, 1);
+    position:absolute;
+	
+}
+.contenido 
+{
+    margin-top:-40px;
+    margin-left:40px;
+    width:70%;/*96 para pc de 17"*/
+    height:80%;
+    display: table-cell;
+    background:url(../images/plaeados02.jpg) no-repeat;
+    border-radius:10px 5px;
+    box-shadow:1px 10px 2px rgba(56, 81, 128, 1);
+    display:none;
+    position:absolute;
+	
+}
+.contenido input:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #000FFF;
+}
+.contenido input {
+    padding: 5px 5px;
+    border-radius:10px 5px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    margin: 5px;
+	
+}
+
+#titulo{
+   font-family:Verdana, Geneva, sans-serif;
+   font-size:15px;  
+}
+#box1{
+    font-family:Verdana, Geneva, sans-serif;
+    margin:3%;
+    border: 1px solid #3151B2;
+    width: 20%;
+    padding:10px ;
+   
+    color:#00F;
+    display: table-cell;
+    background:url(../images/plateados02.jpg) no-repeat;
+    border-radius: 10px;
+    box-shadow:1px 4px 2px rgba(56, 81, 128, 1);
+}
+#contenido1 contenido2 contenido3 contenido4 {
+padding:30px;
+margin:60px;
+}
+.contenido_1{
+    	font-family:Verdana, Geneva, sans-serif;
+	margin:3%;
+    	border: 1px solid #CED5D7;
+    	width: 30%;
+	padding:10px 7px 5px 6px;
+	font-size:12px; 
+    	color:#00F;
+	display: table-cell;
+	background:url(../images/plateados02.jpg) repeat;
+ border-radius: 10px;
+	box-shadow:1px 4px 2px rgba(,0,0,0.1);
+}
+#box3{
+    font-family:Verdana, Geneva, sans-serif;
+				margin:20%;
+    margin-bottom: auto;
+    border: 1px solid #CED5D7;
+    width:20%;
+				padding:10px ;
+				font-size:12px; 
+    color:#00F;
+				display: table-cell;
+				background:url(../images/pateados02.jpg) no-repeat;
+   	border-radius: 10px;
+	   box-shadow:1px 4px 2px rgba(56, 81, 128, 1);
+}
+#box_conectar input[type='text']:focus{
+    padding: 10px 5px 5px 10px;
+    outline: none;
+    margin: 0px 0;
+    
+    }
+ #fila_conectar{
+border-radius: 60px 0 60px;
+height:5%; width:5%; background: #ddd url(../images/plateados02.jpg);box-shadow: 20px 8px 2px rgba(60,25,0,0.2);
+position:absolute;
+	top:277px;
+	left:40%;
+	width:503px;
+	height:295px;
+	margin-left:-20px;
+	margin-top:-20px;
+	margin-botton:-20px;	
+	
+		}
+ #aline_imagen{
+	position:absolute;
+ width:20%;
+	height:20%;
+	top:60%;
+	left:77%;
+	margin-left:-200px;
+	margin-top:-150px;
+
+		}
+#msn{
+position:absolute;
+border-radius: 60px 0 60px;
+box-shadow:1px 4px 2px rgba(56, 81, 128, 1);
+background:url(images/plaeados02.jpg) no-repeat;
+width:20%;
+top:10%;
+left:65%;
+
+}
+/******************css del tab***************************/
+   
+        
+/*********************************************/
+

@@ -1,0 +1,104 @@
+Set up Java sources on Debian Linux 7 (Squeeze)
+
+    su -
+    echo “deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main” | tee -a /etc/apt/sources.list
+    echo “deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu precise main” | tee -a /etc/apt/sources.list
+    apt-key adv –keyserver keyserver.ubuntu.com –recv-keys EEA14886
+
+Install JDK7 on Debian Linux 7 (Squeeze)
+
+    apt-get update
+    apt-get install oracle-java7-installer
+    exit
+    When prompted whether to continue, enter “Y”. Don’t worry by the “Abort” message. Continue with step below.
+    apt-get install oracle-java7-set-default
+    Agree to licenses and download and installation
+
+ 
+
+After install you have to enable the jdk.
+
+    Update-alternatives –display java (note there are two – dashes before display, formatting turned them into one).
+
+You should see the link points to java7 directories n will begin.
+
+ 
+
+Check if Java JDK7 is used
+
+    Java –version
+
+You should see something like:
+
+Java version “1.7.x_xx” where the x’s are the latest revision
+
+Java SE runtime …..
+
+Java HotSpot Server ….
+
+Javac –version
+
+You should see something like:
+
+Javac 1.7.x_xx
+
+ 
+
+Remove OpenJDK on Debian Linux 7 (Squeeze)
+
+    Open Synaptic Application Manager
+    Search for “Open”.
+    Select the Open JDK and Mark for Complete Removal including any dependencies.
+    Apply.
+
+ 
+
+Install Eclipse on Debian Linux 7 (Squeeze)
+
+    Open Synaptic Application Manager
+    Search for Eclipse.
+    Mark for installation and “Apply” including any dependancies.
+    Open Eclipse and update to use installed JRE:
+    Window -> Preferences -> Java -> Installed JREs -> Add -> Standard VM -> Next -> Navigate to: /usr/lib/jvm/java-7-oracle/jre directory -> OK -> Enable by selecting the check box (depressed is enabled)
+    Update Compiler compliance level to 1.7 or whatever version installed / latest.
+
+ 
+
+Install Android SDK on Debian Linux 7 (Squeeze)
+
+    Open terminal.
+    Download Android SDK using the following command (note version at this time is 22.0.1):
+    @ https://developer.android.com/sdk/index … xistingIDE
+
+ 
+
+    Navigate to downloaded directory, extract there.
+    In Terminal, change to extracted directory:
+    cd Downloads
+    Move Android SDK into this directory:
+    mv android-sdk-linux /usr/lib/
+    Change to the Tools directory:
+    Cd /usr/lib/android-sdk-linux-/tools
+    Install:
+    ./android
+    Android SDK Manager will open for updates, select Android version you intend to develop with (USB Driver is handled manually as instructed by Android Developer site).
+    Add Android SDK to your path environment:
+    mousepad ~/.bashrc (opens mousepad text editor)
+    Add and save to the very top of the file, the following:
+    export PATH=${PATH}:~/android-sdk-linux/tools
+    export PATH=${PATH}:~/android-sdk-linux/platform-tools
+
+ 
+
+Install ADT Plugin on Debian Linux 7 (Squeeze)
+
+    Run Eclipse.
+    Under Help -> Install new software.
+    Enter https://dl-ssl.google.com/android/eclipse/
+    Add name as “ADT Plugin”.
+    Check mark Developer Tools.
+    Select Next, Next, Agree to start download. OK to any “Unsigned …”.
+    Setup location of Android SDK within Eclipse. Open Preferences. Point to /usr/lib
+    /android-sdk-linux directory or where ever you placed Android SDK.
+    Open Eclipse -> Window -> Customize Perspective -> Command Groups Availability tab -> Under Available command groups:….enable “Android SDK and AVD manager” -> OK.
+

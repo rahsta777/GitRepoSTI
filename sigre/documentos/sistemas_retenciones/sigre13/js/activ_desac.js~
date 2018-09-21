@@ -1,0 +1,9 @@
+/*Important Function to blend the tabs in and out*/
+function blendoff(idname) {document.getElementById(idname).style.display = 'none';
+}
+function blendon(idname) {document.getElementById(idname).style.display = 'list-item';
+/*alert("paso"+idname)*/ }
+function visible(idvariable) {document.getElementById(idvariable).style.display = 'list-item';
+/*alert("paso"+idname)*/ }
+function oculta(idvariable1) {document.getElementById(idvariable1).style.display = 'none';
+}

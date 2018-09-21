@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/proyectos/sigre/index0.php",
+			"settings":
+			{
+				"buffer_size": 41887,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/buscar_user_mant.php",
+			"settings":
+			{
+				"buffer_size": 1627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/buscar_procesar_fact.php",
+			"settings":
+			{
+				"buffer_size": 1644,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/js/checkcolor.js",
+			"settings":
+			{
+				"buffer_size": 12368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/localizar_procesar_fact.php",
+			"settings":
+			{
+				"buffer_size": 7018,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/tienda/index1.php",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE HTML>\n<!--\n	Miniport by HTML5 UP\n	html5up.net | @n33co\n	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)\n-->\n<?php header('Content-type: text/html; charset=utf-8'); ?>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\" />\n<html>\n	<head>\n		<title>Miniport by HTML5 UP</title>\n		<meta charset=\"utf-8\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n		<!--[if lte IE 8]><script src=\"assets/js/ie/html5shiv.js\"></script><![endif]-->\n		<link rel=\"stylesheet\" href=\"assets/css/main.css\" />\n		<!--[if lte IE 8]><link rel=\"stylesheet\" href=\"assets/css/ie8.css\" /><![endif]-->\n		<!--[if lte IE 9]><link rel=\"stylesheet\" href=\"assets/css/ie9.css\" /><![endif]-->\n	</head>\n	<body>\n\n		<!-- Nav -->\n			<nav id=\"nav\">\n				<ul class=\"container\">\n					<li><a href=\"#top\">Perfil</a></li>\n					<li><a href=\"#work\">Trabajos</a></li>\n					<li><a href=\"#portfolio\">Portfolio</a></li>\n					<li><a href=\"#contact\">Contacto</a></li>\n				</ul>\n			</nav>\n\n		<!-- Home -->\n			<div class=\"wrapper style1 first\">\n				<article class=\"container\" id=\"top\">\n					<div class=\"row\">\n						<div class=\"4u 12u(mobile)\">\n							<span class=\"image fit\"><img src=\"images/mifoto.png\" alt=\"\" /></span>\n						</div>\n						<div class=\"8u 12u(mobile)\">\n							<header>\n								<h2><strong>Richard A. Henriquez S. (Programador WEB)</strong>.</h2>\n							</header>\n							<p> <strong>Mi Experiencia</strong> ha ido desde Analista de Base de Datos a Analista de plataforma tecnologica y de manera independiente como freelance en desarrollo de <strong>aplicaciones WEB (php, jquery, jscript, bootstrack, ajax)</strong>	</p>\n							<a href=\"#work\" class=\"button big scrolly\">Siguiente</a>\n						</div>\n					</div>\n				</article>\n			</div>\n\n		<!-- Work -->\n			<div class=\"wrapper style2\">\n				<article id=\"work\">\n					<header>\n						<h2>Mi Desempeño Laboral (últimos cargos).</h2>\n						<p>mas de 6 años de experiencia en area de Tecnologia y Desarrollo</p>\n					</header>\n					<div class=\"container\">\n						<div class=\"row\">\n							<div class=\"4u 12u(mobile)\">\n								<section class=\"box style1\">\n									<img src=\"images/Hidro.png\" alt=\"\" />\n									<!--span class=\"icon featured fa-comments-o\"></span-->\n									<h3>C.A Hidrologica del Caribe</h3>\n									<p>Analista de Base de Datos, duración 4 años. Retiro voluntario</p>\n								</section>\n							</div>\n							<div class=\"4u 12u(mobile)\">\n								<section class=\"box style1\">\n									<img width=\"80px\" src=\"images/academia.png\" alt=\"\" />\n									<!--span class=\"icon featured fa-camera-retro\"></span-->\n									<h3>Academia de Software Libre Fundacite Anzoategui.</h3>\n									<p>Instructor/Programador, duración 2 años. Despido</p>\n								</section>\n							</div>\n							<div class=\"4u 12u(mobile)\">\n								<section class=\"box style1\">\n									<img width=\"70px\" src=\"images/ivss.jpg\" alt=\"\" />\n									<!--span class=\"icon featured fa-thumbs-o-up\"></span-->\n									<h3>Proyecto CBIS (centro Bolivariano de investigaciones de la Salud) I.V.S.S</h3>\n									<p>Analista programador </p>\n								</section>\n							</div>\n						</div>\n					</div>\n					<footer>\n						<p>Proyecto freelancer en institutos tecnologicos como asesor de desarrollo de software</p>\n						<a href=\"#portfolio\" class=\"button big scrolly\">Siguiente</a>\n					</footer>\n				</article>\n			</div>\n\n		<!-- Portfolio -->\n			<div class=\"wrapper style3\">\n				<article id=\"portfolio\">\n					<header>\n						<h2>Mis Screenshop de proyecto como Freelancer</h2>\n						<p>Manejo de los framework basados en javascrip (jquery, bootstrack, ajax etc).</p>\n					</header>\n					<div class=\"container\">\n						<div class=\"row\">\n							<div class=\"4u 12u(mobile)\">\n								<article class=\"box style2\">\n									<a href=\"#\" class=\"image featured\"><img src=\"images/retencion1.png\" alt=\"\" /></a>\n									<h3><a href=\"#\">Aplicación de retencion de Impuesto PDVSA</a></h3>\n									<p>Control de provedores y seguimiento de las retenciones.</p>\n								</article>\n							</div>\n							<div class=\"4u 12u(mobile)\">\n								<article class=\"box style2\">\n									<a href=\"#\" class=\"image featured\"><img src=\"images/tienda.png\" alt=\"\" /></a>\n									<h3><a href=\"#\">Aplicación Tienda de Musica</a></h3>\n									<p>Aplicacion en linea para venta de instrumentos musicales</p>\n								</article>\n							</div>\n							<div class=\"4u 12u(mobile)\">\n								<article class=\"box style2\">\n									<a href=\"#\" class=\"image featured\"><img src=\"images/controlestudio.png\" alt=\"\" /></a>\n									<h3><a href=\"#\">Aplicación de Control de Estudio</a></h3>\n									<p>Aplicacion para el control de registro de alumnos y Calificaciones</p>\n								</article>\n							</div>\n						</div>\n						<div class=\"row\">\n							<div class=\"4u 12u(mobile)\">\n								<article class=\"box style2\">\n									<a href=\"#\" class=\"image featured\"><img src=\"images/auditorias.png\" alt=\"\" /></a>\n									<h3><a href=\"#\">Control y gestion de Auditorias PDVSA</a></h3>\n									\n								</article>\n							</div>\n							<!--div class=\"4u 12u(mobile)\">\n								<article class=\"box style2\">\n									<a href=\"#\" class=\"image featured\"><img src=\"images/pic05.jpg\" alt=\"\" /></a>\n									<h3><a href=\"#\">Feugiat aliquam</a></h3>\n									<p>Ornare nulla proin odio consequat.</p>\n								</article>\n							</div>\n							<div class=\"4u 12u(mobile)\">\n								<article class=\"box style2\">\n									<a href=\"#\" class=\"image featured\"><img src=\"images/pic06.jpg\" alt=\"\" /></a>\n									<h3><a href=\"#\">Sed amet ornare</a></h3>\n									<p>Ornare nulla proin odio consequat.</p>\n								</article>\n							</div-->\n						</div>\n					</div>\n					<footer>\n						<p>Se encuentran otros proyectos en Desarrollo</p>\n						<a href=\"#contact\" class=\"button big scrolly\">Siguiente</a>\n					</footer>\n				</article>\n			</div>\n\n		<!-- Contact -->\n			<div class=\"wrapper style4\">\n				<article id=\"contact\" class=\"container 75%\">\n					<header>\n						<h2>Contacto por Correo o por Las redes Sociales</h2>\n						\n					</header>\n					<div>\n						<div class=\"row\">\n							<div class=\"12u\">\n								<form method=\"post\" action=\"#\">\n									<div>\n										<div class=\"row\">\n											<div class=\"6u 12u(mobile)\">\n												<input type=\"text\" name=\"name\" id=\"name\" placeholder=\"Name\" />\n											</div>\n											<div class=\"6u 12u(mobile)\">\n												<input type=\"text\" name=\"email\" id=\"email\" placeholder=\"Email\" />\n											</div>\n										</div>\n										<div class=\"row\">\n											<div class=\"12u\">\n												<input type=\"text\" name=\"subject\" id=\"subject\" placeholder=\"Subject\" />\n											</div>\n										</div>\n										<div class=\"row\">\n											<div class=\"12u\">\n												<textarea name=\"message\" id=\"message\" placeholder=\"Message\"></textarea>\n											</div>\n										</div>\n										<div class=\"row 200%\">\n											<div class=\"12u\">\n												<ul class=\"actions\">\n													<li><input type=\"submit\" value=\"Send Message\" /></li>\n													<li><input type=\"reset\" value=\"Clear Form\" class=\"alt\" /></li>\n												</ul>\n											</div>\n										</div>\n									</div>\n								</form>\n							</div>\n						</div>\n						<div class=\"row\">\n							<div class=\"12u\">\n								<hr />\n								<h3>Find me on ...</h3>\n								<ul class=\"social\">\n									<li><a href=\"#rahs777\" class=\"icon fa-twitter\"><span class=\"label\">Twitter</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-facebook\"><span class=\"label\">Facebook</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-dribbble\"><span class=\"label\">Dribbble</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-linkedin\"><span class=\"label\">LinkedIn</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-tumblr\"><span class=\"label\">Tumblr</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-google-plus\"><span class=\"label\">Google+</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-github\"><span class=\"label\">Github</span></a></li>\n									<!--\n									<li><a href=\"#\" class=\"icon fa-rss\"><span>RSS</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-instagram\"><span>Instagram</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-foursquare\"><span>Foursquare</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-skype\"><span>Skype</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-soundcloud\"><span>Soundcloud</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-youtube\"><span>YouTube</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-blogger\"><span>Blogger</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-flickr\"><span>Flickr</span></a></li>\n									<li><a href=\"#\" class=\"icon fa-vimeo\"><span>Vimeo</span></a></li>\n									-->\n								</ul>\n								<hr />\n							</div>\n						</div>\n					</div>\n					<footer>\n						<ul id=\"copyright\">\n							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n						</ul>\n					</footer>\n				</article>\n			</div>\n\n		<!-- Scripts -->\n			<script src=\"assets/js/jquery.min.js\"></script>\n			<script src=\"assets/js/jquery.scrolly.min.js\"></script>\n			<script src=\"assets/js/skel.min.js\"></script>\n			<script src=\"assets/js/skel-viewport.min.js\"></script>\n			<script src=\"assets/js/util.js\"></script>\n			<!--[if lte IE 8]><script src=\"assets/js/ie/respond.min.js\"></script><![endif]-->\n			<script src=\"assets/js/main.js\"></script>\n\n	</body>\n</html>",
+			"file": "/media/hdportatil/programacionWEB/micv_web/index_miCV_web.html",
+			"file_size": 9623,
+			"file_write_time": 130844821476211220,
+			"settings":
+			{
+				"buffer_size": 9380,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@import url(\"http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700\");\n@import url(\"font-awesome.min.css\");\n\n/*\n	Miniport by HTML5 UP\n	html5up.net | @n33co\n	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)\n*/\n\n/* Reset */\n\n	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n		margin: 0;\n		padding: 0;\n		border: 0;\n		font-size: 100%;\n		font: inherit;\n		vertical-align: baseline;\n	}\n\n	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n		display: block;\n	}\n\n	body {\n		line-height: 1;\n	}\n\n	ol, ul {\n		list-style: none;\n	}\n\n	blockquote, q {\n		quotes: none;\n	}\n\n	blockquote:before, blockquote:after, q:before, q:after {\n		content: '';\n		content: none;\n	}\n\n	table {\n		border-collapse: collapse;\n		border-spacing: 0;\n	}\n\n	body {\n		-webkit-text-size-adjust: none;\n	}\n\n/* Box Model */\n\n	*, *:before, *:after {\n		-moz-box-sizing: border-box;\n		-webkit-box-sizing: border-box;\n		box-sizing: border-box;\n	}\n\n/* Containers */\n\n	.container {\n		margin-left: auto;\n		margin-right: auto;\n	}\n\n	.container.\\31 25\\25 {\n		width: 100%;\n		max-width: 1200px;\n		min-width: 960px;\n	}\n\n	.container.\\37 5\\25 {\n		width: 720px;\n	}\n\n	.container.\\35 0\\25 {\n		width: 480px;\n	}\n\n	.container.\\32 5\\25 {\n		width: 240px;\n	}\n\n	.container {\n		width: 960px;\n	}\n\n	@media screen and (min-width: 737px) {\n\n		.container.\\31 25\\25 {\n			width: 100%;\n			max-width: 1500px;\n			min-width: 1200px;\n		}\n\n		.container.\\37 5\\25 {\n			width: 900px;\n		}\n\n		.container.\\35 0\\25 {\n			width: 600px;\n		}\n\n		.container.\\32 5\\25 {\n			width: 300px;\n		}\n\n		.container {\n			width: 1200px;\n		}\n\n	}\n\n	@media screen and (min-width: 737px) and (max-width: 1200px) {\n\n		.container.\\31 25\\25 {\n			width: 100%;\n			max-width: 1200px;\n			min-width: 960px;\n		}\n\n		.container.\\37 5\\25 {\n			width: 720px;\n		}\n\n		.container.\\35 0\\25 {\n			width: 480px;\n		}\n\n		.container.\\32 5\\25 {\n			width: 240px;\n		}\n\n		.container {\n			width: 960px;\n		}\n\n	}\n\n	@media screen and (max-width: 736px) {\n\n		.container.\\31 25\\25 {\n			width: 100%;\n			max-width: 125%;\n			min-width: 100%;\n		}\n\n		.container.\\37 5\\25 {\n			width: 75%;\n		}\n\n		.container.\\35 0\\25 {\n			width: 50%;\n		}\n\n		.container.\\32 5\\25 {\n			width: 25%;\n		}\n\n		.container {\n			width: 100% !important;\n		}\n\n	}\n\n/* Grid */\n\n	.row {\n		border-bottom: solid 1px transparent;\n		-moz-box-sizing: border-box;\n		-webkit-box-sizing: border-box;\n		box-sizing: border-box;\n	}\n\n	.row > * {\n		float: left;\n		-moz-box-sizing: border-box;\n		-webkit-box-sizing: border-box;\n		box-sizing: border-box;\n	}\n\n	.row:after, .row:before {\n		content: '';\n		display: block;\n		clear: both;\n		height: 0;\n	}\n\n	.row.uniform > * > :first-child {\n		margin-top: 0;\n	}\n\n	.row.uniform > * > :last-child {\n		margin-bottom: 0;\n	}\n\n	.row.\\30 \\25 > * {\n		padding: 0 0 0 0px;\n	}\n\n	.row.\\30 \\25 {\n		margin: 0 0 -1px 0px;\n	}\n\n	.row.uniform.\\30 \\25 > * {\n		padding: 0px 0 0 0px;\n	}\n\n	.row.uniform.\\30 \\25 {\n		margin: 0px 0 -1px 0px;\n	}\n\n	.row > * {\n		padding: 0 0 0 40px;\n	}\n\n	.row {\n		margin: 0 0 -1px -40px;\n	}\n\n	.row.uniform > * {\n		padding: 40px 0 0 40px;\n	}\n\n	.row.uniform {\n		margin: -40px 0 -1px -40px;\n	}\n\n	.row.\\32 00\\25 > * {\n		padding: 0 0 0 80px;\n	}\n\n	.row.\\32 00\\25 {\n		margin: 0 0 -1px -80px;\n	}\n\n	.row.uniform.\\32 00\\25 > * {\n		padding: 80px 0 0 80px;\n	}\n\n	.row.uniform.\\32 00\\25 {\n		margin: -80px 0 -1px -80px;\n	}\n\n	.row.\\31 50\\25 > * {\n		padding: 0 0 0 60px;\n	}\n\n	.row.\\31 50\\25 {\n		margin: 0 0 -1px -60px;\n	}\n\n	.row.uniform.\\31 50\\25 > * {\n		padding: 60px 0 0 60px;\n	}\n\n	.row.uniform.\\31 50\\25 {\n		margin: -60px 0 -1px -60px;\n	}\n\n	.row.\\35 0\\25 > * {\n		padding: 0 0 0 20px;\n	}\n\n	.row.\\35 0\\25 {\n		margin: 0 0 -1px -20px;\n	}\n\n	.row.uniform.\\35 0\\25 > * {\n		padding: 20px 0 0 20px;\n	}\n\n	.row.uniform.\\35 0\\25 {\n		margin: -20px 0 -1px -20px;\n	}\n\n	.row.\\32 5\\25 > * {\n		padding: 0 0 0 10px;\n	}\n\n	.row.\\32 5\\25 {\n		margin: 0 0 -1px -10px;\n	}\n\n	.row.uniform.\\32 5\\25 > * {\n		padding: 10px 0 0 10px;\n	}\n\n	.row.uniform.\\32 5\\25 {\n		margin: -10px 0 -1px -10px;\n	}\n\n	.\\31 2u, .\\31 2u\\24 {\n		width: 100%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\31 1u, .\\31 1u\\24 {\n		width: 91.6666666667%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\31 0u, .\\31 0u\\24 {\n		width: 83.3333333333%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\39 u, .\\39 u\\24 {\n		width: 75%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\38 u, .\\38 u\\24 {\n		width: 66.6666666667%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\37 u, .\\37 u\\24 {\n		width: 58.3333333333%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\36 u, .\\36 u\\24 {\n		width: 50%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\35 u, .\\35 u\\24 {\n		width: 41.6666666667%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\34 u, .\\34 u\\24 {\n		width: 33.3333333333%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\33 u, .\\33 u\\24 {\n		width: 25%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\32 u, .\\32 u\\24 {\n		width: 16.6666666667%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\31 u, .\\31 u\\24 {\n		width: 8.3333333333%;\n		clear: none;\n		margin-left: 0;\n	}\n\n	.\\31 2u\\24 + *,\n	.\\31 1u\\24 + *,\n	.\\31 0u\\24 + *,\n	.\\39 u\\24 + *,\n	.\\38 u\\24 + *,\n	.\\37 u\\24 + *,\n	.\\36 u\\24 + *,\n	.\\35 u\\24 + *,\n	.\\34 u\\24 + *,\n	.\\33 u\\24 + *,\n	.\\32 u\\24 + *,\n	.\\31 u\\24 + * {\n		clear: left;\n	}\n\n	.\\-11u {\n		margin-left: 91.66667%;\n	}\n\n	.\\-10u {\n		margin-left: 83.33333%;\n	}\n\n	.\\-9u {\n		margin-left: 75%;\n	}\n\n	.\\-8u {\n		margin-left: 66.66667%;\n	}\n\n	.\\-7u {\n		margin-left: 58.33333%;\n	}\n\n	.\\-6u {\n		margin-left: 50%;\n	}\n\n	.\\-5u {\n		margin-left: 41.66667%;\n	}\n\n	.\\-4u {\n		margin-left: 33.33333%;\n	}\n\n	.\\-3u {\n		margin-left: 25%;\n	}\n\n	.\\-2u {\n		margin-left: 16.66667%;\n	}\n\n	.\\-1u {\n		margin-left: 8.33333%;\n	}\n\n	@media screen and (min-width: 737px) {\n\n		.row > * {\n			padding: 25px 0 0 25px;\n		}\n\n		.row {\n			margin: -25px 0 -1px -25px;\n		}\n\n		.row.uniform > * {\n			padding: 25px 0 0 25px;\n		}\n\n		.row.uniform {\n			margin: -25px 0 -1px -25px;\n		}\n\n		.row.\\32 00\\25 > * {\n			padding: 50px 0 0 50px;\n		}\n\n		.row.\\32 00\\25 {\n			margin: -50px 0 -1px -50px;\n		}\n\n		.row.uniform.\\32 00\\25 > * {\n			padding: 50px 0 0 50px;\n		}\n\n		.row.uniform.\\32 00\\25 {\n			margin: -50px 0 -1px -50px;\n		}\n\n		.row.\\31 50\\25 > * {\n			padding: 37.5px 0 0 37.5px;\n		}\n\n		.row.\\31 50\\25 {\n			margin: -37.5px 0 -1px -37.5px;\n		}\n\n		.row.uniform.\\31 50\\25 > * {\n			padding: 37.5px 0 0 37.5px;\n		}\n\n		.row.uniform.\\31 50\\25 {\n			margin: -37.5px 0 -1px -37.5px;\n		}\n\n		.row.\\35 0\\25 > * {\n			padding: 12.5px 0 0 12.5px;\n		}\n\n		.row.\\35 0\\25 {\n			margin: -12.5px 0 -1px -12.5px;\n		}\n\n		.row.uniform.\\35 0\\25 > * {\n			padding: 12.5px 0 0 12.5px;\n		}\n\n		.row.uniform.\\35 0\\25 {\n			margin: -12.5px 0 -1px -12.5px;\n		}\n\n		.row.\\32 5\\25 > * {\n			padding: 6.25px 0 0 6.25px;\n		}\n\n		.row.\\32 5\\25 {\n			margin: -6.25px 0 -1px -6.25px;\n		}\n\n		.row.uniform.\\32 5\\25 > * {\n			padding: 6.25px 0 0 6.25px;\n		}\n\n		.row.uniform.\\32 5\\25 {\n			margin: -6.25px 0 -1px -6.25px;\n		}\n\n		.\\31 2u\\28desktop\\29, .\\31 2u\\24\\28desktop\\29 {\n			width: 100%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 1u\\28desktop\\29, .\\31 1u\\24\\28desktop\\29 {\n			width: 91.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 0u\\28desktop\\29, .\\31 0u\\24\\28desktop\\29 {\n			width: 83.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\39 u\\28desktop\\29, .\\39 u\\24\\28desktop\\29 {\n			width: 75%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\38 u\\28desktop\\29, .\\38 u\\24\\28desktop\\29 {\n			width: 66.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\37 u\\28desktop\\29, .\\37 u\\24\\28desktop\\29 {\n			width: 58.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\36 u\\28desktop\\29, .\\36 u\\24\\28desktop\\29 {\n			width: 50%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\35 u\\28desktop\\29, .\\35 u\\24\\28desktop\\29 {\n			width: 41.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\34 u\\28desktop\\29, .\\34 u\\24\\28desktop\\29 {\n			width: 33.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\33 u\\28desktop\\29, .\\33 u\\24\\28desktop\\29 {\n			width: 25%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\32 u\\28desktop\\29, .\\32 u\\24\\28desktop\\29 {\n			width: 16.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 u\\28desktop\\29, .\\31 u\\24\\28desktop\\29 {\n			width: 8.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 2u\\24\\28desktop\\29 + *,\n		.\\31 1u\\24\\28desktop\\29 + *,\n		.\\31 0u\\24\\28desktop\\29 + *,\n		.\\39 u\\24\\28desktop\\29 + *,\n		.\\38 u\\24\\28desktop\\29 + *,\n		.\\37 u\\24\\28desktop\\29 + *,\n		.\\36 u\\24\\28desktop\\29 + *,\n		.\\35 u\\24\\28desktop\\29 + *,\n		.\\34 u\\24\\28desktop\\29 + *,\n		.\\33 u\\24\\28desktop\\29 + *,\n		.\\32 u\\24\\28desktop\\29 + *,\n		.\\31 u\\24\\28desktop\\29 + * {\n			clear: left;\n		}\n\n		.\\-11u\\28desktop\\29 {\n			margin-left: 91.66667%;\n		}\n\n		.\\-10u\\28desktop\\29 {\n			margin-left: 83.33333%;\n		}\n\n		.\\-9u\\28desktop\\29 {\n			margin-left: 75%;\n		}\n\n		.\\-8u\\28desktop\\29 {\n			margin-left: 66.66667%;\n		}\n\n		.\\-7u\\28desktop\\29 {\n			margin-left: 58.33333%;\n		}\n\n		.\\-6u\\28desktop\\29 {\n			margin-left: 50%;\n		}\n\n		.\\-5u\\28desktop\\29 {\n			margin-left: 41.66667%;\n		}\n\n		.\\-4u\\28desktop\\29 {\n			margin-left: 33.33333%;\n		}\n\n		.\\-3u\\28desktop\\29 {\n			margin-left: 25%;\n		}\n\n		.\\-2u\\28desktop\\29 {\n			margin-left: 16.66667%;\n		}\n\n		.\\-1u\\28desktop\\29 {\n			margin-left: 8.33333%;\n		}\n\n	}\n\n	@media screen and (min-width: 737px) and (max-width: 1200px) {\n\n		.row > * {\n			padding: 25px 0 0 25px;\n		}\n\n		.row {\n			margin: -25px 0 -1px -25px;\n		}\n\n		.row.uniform > * {\n			padding: 25px 0 0 25px;\n		}\n\n		.row.uniform {\n			margin: -25px 0 -1px -25px;\n		}\n\n		.row.\\32 00\\25 > * {\n			padding: 50px 0 0 50px;\n		}\n\n		.row.\\32 00\\25 {\n			margin: -50px 0 -1px -50px;\n		}\n\n		.row.uniform.\\32 00\\25 > * {\n			padding: 50px 0 0 50px;\n		}\n\n		.row.uniform.\\32 00\\25 {\n			margin: -50px 0 -1px -50px;\n		}\n\n		.row.\\31 50\\25 > * {\n			padding: 37.5px 0 0 37.5px;\n		}\n\n		.row.\\31 50\\25 {\n			margin: -37.5px 0 -1px -37.5px;\n		}\n\n		.row.uniform.\\31 50\\25 > * {\n			padding: 37.5px 0 0 37.5px;\n		}\n\n		.row.uniform.\\31 50\\25 {\n			margin: -37.5px 0 -1px -37.5px;\n		}\n\n		.row.\\35 0\\25 > * {\n			padding: 12.5px 0 0 12.5px;\n		}\n\n		.row.\\35 0\\25 {\n			margin: -12.5px 0 -1px -12.5px;\n		}\n\n		.row.uniform.\\35 0\\25 > * {\n			padding: 12.5px 0 0 12.5px;\n		}\n\n		.row.uniform.\\35 0\\25 {\n			margin: -12.5px 0 -1px -12.5px;\n		}\n\n		.row.\\32 5\\25 > * {\n			padding: 6.25px 0 0 6.25px;\n		}\n\n		.row.\\32 5\\25 {\n			margin: -6.25px 0 -1px -6.25px;\n		}\n\n		.row.uniform.\\32 5\\25 > * {\n			padding: 6.25px 0 0 6.25px;\n		}\n\n		.row.uniform.\\32 5\\25 {\n			margin: -6.25px 0 -1px -6.25px;\n		}\n\n		.\\31 2u\\28tablet\\29, .\\31 2u\\24\\28tablet\\29 {\n			width: 100%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 1u\\28tablet\\29, .\\31 1u\\24\\28tablet\\29 {\n			width: 91.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 0u\\28tablet\\29, .\\31 0u\\24\\28tablet\\29 {\n			width: 83.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\39 u\\28tablet\\29, .\\39 u\\24\\28tablet\\29 {\n			width: 75%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\38 u\\28tablet\\29, .\\38 u\\24\\28tablet\\29 {\n			width: 66.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\37 u\\28tablet\\29, .\\37 u\\24\\28tablet\\29 {\n			width: 58.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\36 u\\28tablet\\29, .\\36 u\\24\\28tablet\\29 {\n			width: 50%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\35 u\\28tablet\\29, .\\35 u\\24\\28tablet\\29 {\n			width: 41.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\34 u\\28tablet\\29, .\\34 u\\24\\28tablet\\29 {\n			width: 33.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\33 u\\28tablet\\29, .\\33 u\\24\\28tablet\\29 {\n			width: 25%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\32 u\\28tablet\\29, .\\32 u\\24\\28tablet\\29 {\n			width: 16.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 u\\28tablet\\29, .\\31 u\\24\\28tablet\\29 {\n			width: 8.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 2u\\24\\28tablet\\29 + *,\n		.\\31 1u\\24\\28tablet\\29 + *,\n		.\\31 0u\\24\\28tablet\\29 + *,\n		.\\39 u\\24\\28tablet\\29 + *,\n		.\\38 u\\24\\28tablet\\29 + *,\n		.\\37 u\\24\\28tablet\\29 + *,\n		.\\36 u\\24\\28tablet\\29 + *,\n		.\\35 u\\24\\28tablet\\29 + *,\n		.\\34 u\\24\\28tablet\\29 + *,\n		.\\33 u\\24\\28tablet\\29 + *,\n		.\\32 u\\24\\28tablet\\29 + *,\n		.\\31 u\\24\\28tablet\\29 + * {\n			clear: left;\n		}\n\n		.\\-11u\\28tablet\\29 {\n			margin-left: 91.66667%;\n		}\n\n		.\\-10u\\28tablet\\29 {\n			margin-left: 83.33333%;\n		}\n\n		.\\-9u\\28tablet\\29 {\n			margin-left: 75%;\n		}\n\n		.\\-8u\\28tablet\\29 {\n			margin-left: 66.66667%;\n		}\n\n		.\\-7u\\28tablet\\29 {\n			margin-left: 58.33333%;\n		}\n\n		.\\-6u\\28tablet\\29 {\n			margin-left: 50%;\n		}\n\n		.\\-5u\\28tablet\\29 {\n			margin-left: 41.66667%;\n		}\n\n		.\\-4u\\28tablet\\29 {\n			margin-left: 33.33333%;\n		}\n\n		.\\-3u\\28tablet\\29 {\n			margin-left: 25%;\n		}\n\n		.\\-2u\\28tablet\\29 {\n			margin-left: 16.66667%;\n		}\n\n		.\\-1u\\28tablet\\29 {\n			margin-left: 8.33333%;\n		}\n\n	}\n\n	@media screen and (max-width: 736px) {\n\n		.row > * {\n			padding: 15px 0 0 15px;\n		}\n\n		.row {\n			margin: -15px 0 -1px -15px;\n		}\n\n		.row.uniform > * {\n			padding: 15px 0 0 15px;\n		}\n\n		.row.uniform {\n			margin: -15px 0 -1px -15px;\n		}\n\n		.row.\\32 00\\25 > * {\n			padding: 30px 0 0 30px;\n		}\n\n		.row.\\32 00\\25 {\n			margin: -30px 0 -1px -30px;\n		}\n\n		.row.uniform.\\32 00\\25 > * {\n			padding: 30px 0 0 30px;\n		}\n\n		.row.uniform.\\32 00\\25 {\n			margin: -30px 0 -1px -30px;\n		}\n\n		.row.\\31 50\\25 > * {\n			padding: 22.5px 0 0 22.5px;\n		}\n\n		.row.\\31 50\\25 {\n			margin: -22.5px 0 -1px -22.5px;\n		}\n\n		.row.uniform.\\31 50\\25 > * {\n			padding: 22.5px 0 0 22.5px;\n		}\n\n		.row.uniform.\\31 50\\25 {\n			margin: -22.5px 0 -1px -22.5px;\n		}\n\n		.row.\\35 0\\25 > * {\n			padding: 7.5px 0 0 7.5px;\n		}\n\n		.row.\\35 0\\25 {\n			margin: -7.5px 0 -1px -7.5px;\n		}\n\n		.row.uniform.\\35 0\\25 > * {\n			padding: 7.5px 0 0 7.5px;\n		}\n\n		.row.uniform.\\35 0\\25 {\n			margin: -7.5px 0 -1px -7.5px;\n		}\n\n		.row.\\32 5\\25 > * {\n			padding: 3.75px 0 0 3.75px;\n		}\n\n		.row.\\32 5\\25 {\n			margin: -3.75px 0 -1px -3.75px;\n		}\n\n		.row.uniform.\\32 5\\25 > * {\n			padding: 3.75px 0 0 3.75px;\n		}\n\n		.row.uniform.\\32 5\\25 {\n			margin: -3.75px 0 -1px -3.75px;\n		}\n\n		.\\31 2u\\28mobile\\29, .\\31 2u\\24\\28mobile\\29 {\n			width: 100%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 1u\\28mobile\\29, .\\31 1u\\24\\28mobile\\29 {\n			width: 91.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 0u\\28mobile\\29, .\\31 0u\\24\\28mobile\\29 {\n			width: 83.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\39 u\\28mobile\\29, .\\39 u\\24\\28mobile\\29 {\n			width: 75%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\38 u\\28mobile\\29, .\\38 u\\24\\28mobile\\29 {\n			width: 66.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\37 u\\28mobile\\29, .\\37 u\\24\\28mobile\\29 {\n			width: 58.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\36 u\\28mobile\\29, .\\36 u\\24\\28mobile\\29 {\n			width: 50%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\35 u\\28mobile\\29, .\\35 u\\24\\28mobile\\29 {\n			width: 41.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\34 u\\28mobile\\29, .\\34 u\\24\\28mobile\\29 {\n			width: 33.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\33 u\\28mobile\\29, .\\33 u\\24\\28mobile\\29 {\n			width: 25%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\32 u\\28mobile\\29, .\\32 u\\24\\28mobile\\29 {\n			width: 16.6666666667%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 u\\28mobile\\29, .\\31 u\\24\\28mobile\\29 {\n			width: 8.3333333333%;\n			clear: none;\n			margin-left: 0;\n		}\n\n		.\\31 2u\\24\\28mobile\\29 + *,\n		.\\31 1u\\24\\28mobile\\29 + *,\n		.\\31 0u\\24\\28mobile\\29 + *,\n		.\\39 u\\24\\28mobile\\29 + *,\n		.\\38 u\\24\\28mobile\\29 + *,\n		.\\37 u\\24\\28mobile\\29 + *,\n		.\\36 u\\24\\28mobile\\29 + *,\n		.\\35 u\\24\\28mobile\\29 + *,\n		.\\34 u\\24\\28mobile\\29 + *,\n		.\\33 u\\24\\28mobile\\29 + *,\n		.\\32 u\\24\\28mobile\\29 + *,\n		.\\31 u\\24\\28mobile\\29 + * {\n			clear: left;\n		}\n\n		.\\-11u\\28mobile\\29 {\n			margin-left: 91.66667%;\n		}\n\n		.\\-10u\\28mobile\\29 {\n			margin-left: 83.33333%;\n		}\n\n		.\\-9u\\28mobile\\29 {\n			margin-left: 75%;\n		}\n\n		.\\-8u\\28mobile\\29 {\n			margin-left: 66.66667%;\n		}\n\n		.\\-7u\\28mobile\\29 {\n			margin-left: 58.33333%;\n		}\n\n		.\\-6u\\28mobile\\29 {\n			margin-left: 50%;\n		}\n\n		.\\-5u\\28mobile\\29 {\n			margin-left: 41.66667%;\n		}\n\n		.\\-4u\\28mobile\\29 {\n			margin-left: 33.33333%;\n		}\n\n		.\\-3u\\28mobile\\29 {\n			margin-left: 25%;\n		}\n\n		.\\-2u\\28mobile\\29 {\n			margin-left: 16.66667%;\n		}\n\n		.\\-1u\\28mobile\\29 {\n			margin-left: 8.33333%;\n		}\n\n	}\n\n/* Basic */\n\n	body, input, textarea, select {\n		font-family: 'Open Sans', sans-serif;\n		line-height: 1.85em;\n		color: #888;\n		font-weight: 300;\n	}\n\n		body.is-loading *, input.is-loading *, textarea.is-loading *, select.is-loading * {\n			-moz-transition: none !important;\n			-webkit-transition: none !important;\n			-ms-transition: none !important;\n			transition: none !important;\n			-moz-animation: none !important;\n			-webkit-animation: none !important;\n			-ms-animation: none !important;\n			animation: none !important;\n		}\n\n	a {\n		-moz-transition: color .2s ease-in-out;\n		-webkit-transition: color .2s ease-in-out;\n		-ms-transition: color .2s ease-in-out;\n		transition: color .2s ease-in-out;\n		color: #43B3E0;\n		text-decoration: underline;\n	}\n\n		a:hover {\n			color: #43bff0 !important;\n		}\n\n		a img {\n			border: 0;\n		}\n\n	b, strong {\n		font-weight: 600;\n		color: #3e3e3e;\n	}\n\n	i, em {\n		font-style: italic;\n	}\n\n	sub {\n		position: relative;\n		top: 0.5em;\n		font-size: 0.8em;\n	}\n\n	sup {\n		position: relative;\n		top: -0.5em;\n		font-size: 0.8em;\n	}\n\n	blockquote {\n		border-left: solid 0.75em #eee;\n		padding: 1em 0 1em 1.5em;\n		font-style: italic;\n	}\n\n	h1, h2, h3, h4, h5, h6 {\n		color: #3e3e3e;\n	}\n\n	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {\n		text-decoration: none;\n		color: inherit;\n	}\n\n	h2, h3, h4, h5, h6 {\n		font-weight: 700;\n	}\n\n	h1 {\n		font-weight: 300;\n	}\n\n		h1 strong {\n			font-weight: 700;\n		}\n\n	em, i {\n		font-style: italic;\n	}\n\n	br.clear {\n		clear: both;\n	}\n\n	hr {\n		border: 0;\n		border-top: solid 1px #444;\n		border-top-color: rgba(0, 0, 0, 0.35);\n		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);\n		height: 1px;\n		margin: 3em 0 4em 0;\n	}\n\n	p, ul, ol, dl, table {\n		margin-bottom: 2em;\n	}\n\n/* Form */\n\n	form label {\n		color: #3e3e3e;\n		font-weight: 700;\n		display: block;\n		margin: 0 0 0.5em 0;\n	}\n\n	form input[type=text],\n	form input[type=email],\n	form input[type=password],\n	form select,\n	form textarea {\n		-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;\n		-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;\n		-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;\n		transition: background .2s ease-in-out, box-shadow .2s ease-in-out;\n		-webkit-appearance: none;\n		display: block;\n		border: 0;\n		padding: 0.75em;\n		font-size: 1em;\n		border-radius: 8px;\n		border: solid 1px #ddd;\n		background: #fff;\n		color: #bbb;\n		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);\n		width: 100%;\n	}\n\n		form input[type=text]:focus,\n		form input[type=email]:focus,\n		form input[type=password]:focus,\n		form select:focus,\n		form textarea:focus {\n			background: #fafafa;\n			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;\n		}\n\n	form textarea {\n		height: 15em;\n	}\n\n	form .formerize-placeholder {\n		color: #555 !important;\n	}\n\n	form ::-webkit-input-placeholder {\n		color: #555 !important;\n	}\n\n	form :-moz-placeholder {\n		color: #555 !important;\n	}\n\n	form ::-moz-placeholder {\n		color: #555 !important;\n	}\n\n	form :-ms-input-placeholder {\n		color: #555 !important;\n	}\n\n	form ::-moz-focus-inner {\n		border: 0;\n	}\n\n/* Tables */\n\n	table {\n		width: 100%;\n	}\n\n		table.default {\n			width: 100%;\n		}\n\n			table.default tr {\n				border-top: solid 1px #eee;\n			}\n\n				table.default tr:first-child {\n					border-top: 0;\n				}\n\n			table.default td {\n				padding: 0.5em 1em 0.5em 1em;\n			}\n\n			table.default th {\n				text-align: left;\n				padding: 0.5em 1em 0.5em 1em;\n				font-weight: 600;\n				margin: 0 0 1em 0;\n			}\n\n			table.default thead {\n				background: #4f4f4f;\n				color: #fff;\n			}\n\n/* Section/Article */\n\n	section, article {\n		margin-bottom: 3em;\n	}\n\n	section > :last-child,\n	article > :last-child,\n	section:last-child,\n	article:last-child {\n		margin-bottom: 0;\n	}\n\n/* Image */\n\n	.image {\n		display: inline-block;\n		position: relative;\n	}\n\n		.image img {\n			display: block;\n			width: 100%;\n		}\n\n		.image.fit {\n			display: block;\n			width: 100%;\n		}\n\n		.image.featured {\n			display: block;\n			width: 100%;\n			margin: 0 0 2em 0;\n		}\n\n		.image.left {\n			float: left;\n			margin: 0 2em 2em 0;\n		}\n\n		.image.centered {\n			display: block;\n			margin: 0 0 2em 0;\n		}\n\n			.image.centered img {\n				margin: 0 auto;\n				width: auto;\n			}\n\n/* Button */\n\n	input[type=\"button\"],\n	input[type=\"submit\"],\n	input[type=\"reset\"],\n	button,\n	.button {\n		background-image: url(\"images/bg.png\"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n		background-image: url(\"images/bg.png\"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n		background-image: url(\"images/bg.png\"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n		background-image: url(\"images/bg.png\"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n		-moz-transition: background-color .2s ease-in-out;\n		-webkit-transition: background-color .2s ease-in-out;\n		-ms-transition: background-color .2s ease-in-out;\n		transition: background-color .2s ease-in-out;\n		-webkit-appearance: none;\n		position: relative;\n		display: inline-block;\n		color: #fff !important;\n		text-decoration: none;\n		font-weight: 700;\n		border: 0;\n		outline: 0;\n		cursor: pointer;\n		border-radius: 8px;\n		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);\n		overflow: hidden;\n		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);\n		background-color: #43B3E0;\n	}\n\n		input[type=\"button\"]:hover,\n		input[type=\"submit\"]:hover,\n		input[type=\"reset\"]:hover,\n		button:hover,\n		.button:hover {\n			background-color: #43bff0;\n			color: #fff !important;\n		}\n\n		input[type=\"button\"]:active,\n		input[type=\"submit\"]:active,\n		input[type=\"reset\"]:active,\n		button:active,\n		.button:active {\n			background-color: #3BA8D3;\n			top: 1px;\n		}\n\n		input[type=\"button\"].alt,\n		input[type=\"submit\"].alt,\n		input[type=\"reset\"].alt,\n		button.alt,\n		.button.alt {\n			background-color: #444;\n			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);\n		}\n\n			input[type=\"button\"].alt:hover,\n			input[type=\"submit\"].alt:hover,\n			input[type=\"reset\"].alt:hover,\n			button.alt:hover,\n			.button.alt:hover {\n				background-color: #4f4f4f;\n				color: #fff !important;\n			}\n\n			input[type=\"button\"].alt:active,\n			input[type=\"submit\"].alt:active,\n			input[type=\"reset\"].alt:active,\n			button.alt:active,\n			.button.alt:active {\n				background-color: #3f3f3f;\n			}\n\n/* List */\n\n	ul.default {\n		list-style: disc;\n		padding-left: 1em;\n	}\n\n		ul.default li {\n			padding-left: 0.5em;\n		}\n\n	ul.social {\n		cursor: default;\n		margin: 0;\n	}\n\n		ul.social li {\n			position: relative;\n			display: inline-block;\n			margin: 0.25em;\n			top: 0;\n		}\n\n			ul.social li a {\n				-moz-transition: top .2s ease-in-out;\n				-webkit-transition: top .2s ease-in-out;\n				-ms-transition: top .2s ease-in-out;\n				transition: top .2s ease-in-out;\n				display: block;\n				width: 48px;\n				height: 48px;\n				border-radius: 6px;\n				top: 0;\n				position: relative;\n			}\n\n				ul.social li a:before {\n					background-image: url(\"images/bg.png\"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n					background-image: url(\"images/bg.png\"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n					background-image: url(\"images/bg.png\"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n					background-image: url(\"images/bg.png\"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));\n					-moz-transition: background-color .2s ease-in-out;\n					-webkit-transition: background-color .2s ease-in-out;\n					-ms-transition: background-color .2s ease-in-out;\n					transition: background-color .2s ease-in-out;\n					background-color: #444;\n					border-radius: 6px;\n					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);\n					color: #2E2E2E !important;\n					display: block;\n					font-size: 26px;\n					height: 48px;\n					line-height: 48px;\n					text-align: center;\n					outline: 0;\n					overflow: hidden;\n					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);\n					width: 48px;\n				}\n\n				ul.social li a.fa-twitter {\n					background-color: #2DAAE4;\n				}\n\n				ul.social li a.fa-facebook {\n					background-color: #3C5A98;\n				}\n\n				ul.social li a.fa-dribbble {\n					background-color: #C4376B;\n				}\n\n				ul.social li a.fa-linkedin {\n					background-color: #006599;\n				}\n\n				ul.social li a.fa-tumblr {\n					background-color: #51718A;\n				}\n\n				ul.social li a.fa-google-plus {\n					background-color: #DA2713;\n				}\n\n				ul.social li a.fa-github {\n					background-color: #FAFAFA;\n				}\n\n				ul.social li a.fa-rss {\n					background-color: #F2600B;\n				}\n\n				ul.social li a.fa-instagram {\n					background-color: #E0D7C8;\n				}\n\n				ul.social li a.fa-foursquare {\n					background-color: #39A3D4;\n				}\n\n				ul.social li a.fa-skype {\n					background-color: #10BEF1;\n				}\n\n				ul.social li a.fa-soundcloud {\n					background-color: #FE5419;\n				}\n\n				ul.social li a.fa-youtube {\n					background-color: #BF2E25;\n				}\n\n				ul.social li a.fa-blogger {\n					background-color: #FF6501;\n				}\n\n				ul.social li a.fa-flickr {\n					background-color: #0062DB;\n				}\n\n				ul.social li a.fa-vimeo {\n					background-color: #4C8AB0;\n				}\n\n				ul.social li a:hover {\n					top: -5px;\n				}\n\n					ul.social li a:hover:before {\n						background-color: transparent;\n					}\n\n	ul.actions li {\n		display: inline-block;\n		margin: 0 0 0 1em;\n	}\n\n		ul.actions li:first-child {\n			margin-left: 0;\n		}\n\n	ol.default {\n		list-style: decimal;\n		padding-left: 1.25em;\n	}\n\n		ol.default li {\n			padding-left: 0.25em;\n		}\n\n/* Box */\n\n	.box {\n		background: #fff;\n		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);\n		text-align: center;\n	}\n\n/* Icons */\n\n	.icon {\n		text-decoration: none;\n	}\n\n		.icon:before {\n			display: inline-block;\n			font-family: FontAwesome;\n			font-size: 1.25em;\n			text-decoration: none;\n			font-style: normal;\n			font-weight: normal;\n			line-height: 1;\n			-webkit-font-smoothing: antialiased;\n			-moz-osx-font-smoothing: grayscale;\n		}\n\n		.icon > .label {\n			display: none;\n		}\n\n		.icon.featured {\n			color: #EA8A95;\n			display: block;\n			margin: 0 0 1.5em 0;\n			cursor: default;\n		}\n\n			.icon.featured:before {\n				font-size: 6em;\n			}\n\n/* Wrappers */\n\n	.wrapper {\n		background-image: url(\"images/bg.png\");\n		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);\n	}\n\n		.wrapper.first {\n			box-shadow: none;\n		}\n\n		.wrapper.style1 {\n			background-image: none;\n			background-color: #fff;\n		}\n\n		.wrapper.style2 {\n			background-color: #fafafa;\n			text-shadow: 1px 1px 0px #fff;\n		}\n\n		.wrapper.style3 {\n			background-color: #f4f4f4;\n			text-shadow: 1px 1px 0px #fff;\n		}\n\n		.wrapper.style4 {\n			background-color: #303030;\n			color: #999;\n			text-shadow: -1px -1px 0px #181818;\n		}\n\n			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {\n				color: #fff;\n			}\n\n			.wrapper.style4 form input[type=text],\n			.wrapper.style4 form input[type=password],\n			.wrapper.style4 form select,\n			.wrapper.style4 form textarea {\n				border: none;\n				background: #282828;\n			}\n\n				.wrapper.style4 form input[type=text]:focus,\n				.wrapper.style4 form input[type=password]:focus,\n				.wrapper.style4 form select:focus,\n				.wrapper.style4 form textarea:focus {\n					background: #252525;\n				}\n\n/* Nav */\n\n	#nav {\n		background:#287ACC;\n		text-align: center;\n		position: fixed;\n		left: 0;\n		top: 0;\n		width: 100%;\n		height: 20%;\n		z-index: 10000;\n		cursor: default;\n	}\n\n		#nav ul {\n			margin-bottom: 0;\n		}\n\n		#nav li {\n			display: inline-block;\n		}\n\n		#nav a {\n			position: relative;\n			display: block;\n			color: #fff;\n			text-decoration: none;\n			outline: 0;\n		}\n\n			#nav a:hover {\n				color: #fff !important;\n			}\n\n			#nav a.active:before {\n				content: '';\n				display: block;\n				position: absolute;\n				bottom: -0.6em;\n				left: 50%;\n				margin-left: -0.75em;\n				border-left: solid 0.75em transparent;\n				border-right: solid 0.75em transparent;\n				border-top: solid 0.6em #282828;\n			}\n\n/* Articles */\n\n	#top .image {\n		border-radius: 50%;\n	}\n\n		#top .image img {\n			border-radius: 50%;\n		}\n\n	#top p a {\n		color: inherit;\n	}\n\n/* Copyright */\n\n	#copyright {\n		color: #666;\n	}\n\n		#copyright a {\n			-moz-transition: color .2s ease-in-out;\n			-webkit-transition: color .2s ease-in-out;\n			-ms-transition: color .2s ease-in-out;\n			transition: color .2s ease-in-out;\n			color: inherit;\n		}\n\n			#copyright a:hover {\n				color: #777;\n			}\n\n/* Desktop */\n\n	@media screen and (min-width: 737px) {\n\n		/* Basic */\n\n			body, input, textarea, select {\n				font-size: 13pt;\n			}\n\n			h1 {\n				font-size: 3.25em;\n				letter-spacing: -0.025em;\n			}\n\n			h2 {\n				font-size: 2em;\n				letter-spacing: -0.015em;\n			}\n\n			h3 {\n				font-size: 1.5em;\n				letter-spacing: -0.015em;\n			}\n\n			h1, h2, h3, h4, h5, h6 {\n				margin: 0 0 0.75em 0;\n			}\n\n			header {\n				margin: 0 0 3em 0;\n			}\n\n				header > p {\n					font-size: 1.25em;\n					margin: 0;\n				}\n\n			footer {\n				margin: 3em 0 0 0;\n			}\n\n				footer > p {\n					font-size: 1.25em;\n				}\n\n		/* Form */\n\n			form input[type=\"button\"],\n			form input[type=\"submit\"],\n			form input[type=\"reset\"],\n			form button,\n			form .button {\n				margin: 0 0.5em 0 0.5em;\n			}\n\n		/* Button */\n\n			input[type=\"button\"],\n			input[type=\"submit\"],\n			input[type=\"reset\"],\n			button,\n			.button {\n				padding: 1em 2.35em 1em 2.35em;\n				font-size: 1.1em;\n			}\n\n				input[type=\"button\"].big,\n				input[type=\"submit\"].big,\n				input[type=\"reset\"].big,\n				button.big,\n				.button.big {\n					font-size: 1.5em;\n					letter-spacing: -0.025em;\n				}\n\n		/* Box */\n\n			.box {\n				padding: 2em;\n			}\n\n				.box.style1 {\n					padding: 3em 2em 3.5em 2em;\n				}\n\n					.box.style1 h3 {\n						margin-bottom: 0.5em;\n					}\n\n				.box.style2 h3 {\n					margin-bottom: 0.25em;\n				}\n\n				.box.style2 .image {\n					position: relative;\n					left: 2em;\n					top: 2em;\n					margin: -4em 0 4em -4em;\n					width: auto;\n				}\n\n		/* Wrappers */\n\n			.wrapper {\n				padding: 8em 0 8em 0;\n				text-align: center;\n			}\n\n				.wrapper.first {\n					padding-top: 12em;\n				}\n\n		/* Nav */\n\n			#nav a {\n				-moz-transition: background-color .2s ease-in-out;\n				-webkit-transition: background-color .2s ease-in-out;\n				-ms-transition: background-color .2s ease-in-out;\n				transition: background-color .2s ease-in-out;\n				padding: 0.2em 1em 0.2em 1em;\n				margin: 0.6em 0.2em 0.6em 0.2em;\n				font-weight: 600;\n				border-radius: 8px;\n				color: #fff;\n			}\n\n				#nav a:hover {\n					background: #383838;\n				}\n\n				#nav a:active {\n					background: #484848;\n				}\n\n		/* Articles */\n\n			#top {\n				text-align: left;\n			}\n\n				#top .image {\n					width: 20em;\n					height: 20em;\n					margin: 0;\n				}\n\n				#top h1 {\n					margin-top: 0.35em;\n				}\n\n				#top p {\n					font-size: 1.5em;\n					line-height: 1.75em;\n				}\n\n			#contact footer {\n				font-size: 0.9em;\n			}\n\n		/* Copyright */\n\n			#copyright {\n				font-size: 1em;\n				line-height: 1em;\n			}\n\n				#copyright li {\n					display: inline-block;\n					border-left: solid 1px rgba(0, 0, 0, 0.5);\n					box-shadow: -1px 0px 0px 0px rgba(255, 255, 255, 0.1);\n					padding: 0 0 0 1em;\n					margin: 0 0 0 1em;\n				}\n\n					#copyright li:first-child {\n						border: 0;\n						box-shadow: none;\n						padding-left: 0;\n						margin-left: 0;\n					}\n\n	}\n\n/* Tablet */\n\n	@media screen and (min-width: 737px) and (max-width: 1200px) {\n\n		/* Basic */\n\n			body {\n				min-width: 960px;\n				font-size: 11pt;\n			}\n\n			input, textarea, select {\n				font-size: 11pt;\n			}\n\n			header {\n				margin: 0 0 4em 0;\n			}\n\n		/* Wrappers */\n\n			.wrapper {\n				padding: 5em 0 5em 0;\n				text-align: center;\n			}\n\n				.wrapper.first {\n					padding-top: 9em;\n				}\n\n				.wrapper.style4 .row-special {\n					margin: 2em 0 0 0;\n					padding: 2em 0 2em 0;\n				}\n\n		/* Articles */\n\n			#top .image {\n				width: 19.5em;\n				height: 19.5em;\n				margin: 0;\n			}\n\n	}\n\n/* Mobile */\n\n	@media screen and (max-width: 736px) {\n\n		/* Basic */\n\n			body, input, textarea, select {\n				line-height: 1.75em;\n				font-size: 10pt;\n				letter-spacing: 0;\n			}\n\n			h1, h2, h3, h4, h5, h6 {\n				font-size: 1.25em;\n				margin: 0 0 0.4em 0;\n			}\n\n			h1 {\n				font-size: 2.25em;\n				line-height: 1.25em;\n			}\n\n			header {\n				margin: 0 0 2em 0;\n			}\n\n				header > p {\n					font-size: 1.25em;\n				}\n\n			footer {\n				margin: 2.5em 0 0 0;\n			}\n\n				footer > p {\n					font-size: 1.25em;\n				}\n\n			hr {\n				margin: 1.5em 0 2em 0;\n			}\n\n		/* Section/Article */\n\n			section, article {\n				clear: both;\n			}\n\n		/* Button */\n\n			input[type=\"button\"],\n			input[type=\"submit\"],\n			input[type=\"reset\"],\n			button,\n			.button {\n				text-align: center;\n				font-size: 1.2em;\n				width: 100%;\n				padding: 1em 0 1em 0;\n			}\n\n		/* List */\n\n			ul.social {\n				padding: 1em 0.5em 0 0.5em;\n			}\n\n				ul.social li {\n					margin: 0.5em 0.5em 0.5em 0.5em;\n				}\n\n					ul.social li a {\n						top: 0 !important;\n					}\n\n						ul.social li a:before {\n							background-color: transparent !important;\n						}\n\n			ul.actions {\n				margin: 0;\n			}\n\n				ul.actions li {\n					display: block;\n					margin: 10px 0 0 0;\n				}\n\n					ul.actions li:first-child {\n						margin-top: 0;\n					}\n\n		/* Box */\n\n			.box {\n				padding: 30px 20px 30px 20px;\n				margin: 0 0 20px 0 !important;\n			}\n\n				.box h3 {\n					margin-bottom: 0.25em;\n				}\n\n				.box .image.centered {\n					margin-bottom: 1em;\n				}\n\n				.box .image.featured {\n					position: relative;\n					left: 20px;\n					top: 20px;\n					margin: -50px 0 50px -40px;\n					width: auto;\n				}\n\n		/* Wrappers */\n\n			.wrapper {\n				padding: 3em 15px 3em 15px;\n				text-align: center;\n			}\n\n				.wrapper.first {\n					padding-top: 5em;\n				}\n\n		/* Nav */\n\n			#nav a {\n				padding: 0.5em;\n			}\n\n		/* Articles */\n\n			#top .image {\n				width: 70%;\n				height: auto;\n				margin: 0 auto 1.75em auto;\n			}\n\n			#contact footer {\n				margin: 0;\n			}\n\n		/* Copyright */\n\n			#copyright {\n				font-size: 1em;\n				margin: 0;\n			}\n\n				#copyright li {\n					display: block;\n				}\n\n	}",
+			"file": "/media/hdportatil/programacionWEB/micv_web/assets/css/main.css",
+			"file_size": 34659,
+			"file_write_time": 130844788287149600,
+			"settings":
+			{
+				"buffer_size": 34659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/tienda/portada.php",
+			"settings":
+			{
+				"buffer_size": 2475,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/tienda/plantilla/footer.php",
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/tienda/css/stilo_div.css",
+			"settings":
+			{
+				"buffer_size": 15500,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/cons_fact.php",
+			"settings":
+			{
+				"buffer_size": 3065,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n<title> Inicial De Sistema</title>\n<link rel=\"stylesheet\" href=\"global.css\" type=\"text/css\" media=\"all\" />\n<!-- Page styles -->\n<link type='text/css' href='stilo_div.css' rel='stylesheet' media='screen' />\n\n<!-- Contact Form CSS files -->\n<link type='text/css' href='basic.css' rel='stylesheet' media='screen' />\n\n<!-- IE6 \"fix\" for the close png image -->\n<!--[if lt IE 7]>\n<link type='text/css' href='css/basic_ie.css' rel='stylesheet' media='screen' />\n<![endif]-->\n\n<!-- desde aqui rutina ajax para realizar la consulta en DB -->\n<script type=\"text/javascript\">\nfunction consulta_ajax()\n       {\n	      var var1=(document.getElementById(\"clave\").value);\n	      var var2=(document.getElementById(\"login\").value);\n		     //alert(\"paso\")+var1;\n		     if ((var1.length==0) && (var2.length==0))\n		     { \n		       alert(\"debe llenar todos los campos\")+var1.length;\n		     }\n		     else{\n			    if (window.XMLHttpRequest)\n			      {// code for IE7+, Firefox, Chrome, Opera, Safari\n			      xmlhttp=new XMLHttpRequest();\n			      }\n			    else\n				   {// code for IE6, IE5\n				   xmlhttp=new ActiveXObject(\"Microsoft.XMLHTTP\");\n				   }\n			      xmlhttp.onreadystatechange=function()\n		     {\n	       if (xmlhttp.readyState==4 && xmlhttp.status==200)\n		 {\n		 document.getElementById(\"la_consulta\").innerHTML=xmlhttp.responseText;\n		 }\n	       \n	     xmlhttp.open(\"POST\",\"accss_2.php?var1=\"+var1+\"&var2=\"+var2,true);\n	     \n	     \n	     xmlhttp.send();\n	     \n	     }\n       }\n</script>\n<!-------------------------------------------->\n<script>\nfunction cerrarse(){\nwindow.close()\n}\n</script> \n</head>\n<body>\n<?php\n// ConexiÃ³n a la base de datos\n       include(\"conexion_nomi.php\");\n       include(\"f_fecha.php\");\n		\n ?>\n       <div  class=\"pweb\">\n	     <div class=\"contenedor\">\n		   <div id=\"top\" style=\"width:788px;height:450px;left:80px;top:60px;\"> \n			  <div id=\"header\"> \n			     <div id=\"login-form\" > </div>\n			    <h1>EL<span>Condominio</span> C.A</h1>\n			    <span>Sistema Integrado de Gestion para la administraci&oacuten de Condominios</span>\n			   \n			  </div>\n			  <div id='content'>\n				 <div id='basic-modal'>\n					<input id=\"dato_00\" type=\"button\" name='basic' value='Accesar' class='basic'/>\n				 </div>\n			  </div><!--fin content-->\n			   <hr>\n			  <div style=\"position:absolute;left:5px;\"><img src=\"img/nomina2.png\" width=\"780\" height=\"285\"></div>\n		     \n		   </div><!--fin top-->\n	    \n	    </div><!--CONTENEDOR -->\n      </div><!--pweb -->\n\n		\n		<!-- modal content -->\n		     <div id=\"basic-modal-content\">\n		      \n		     <!--------------------------desde aqui contenido a mostrar------------------------------------------>\n			    <div class=\"cuadro_login\" id=\"dato\">\n				   <form action=\"acceso.php\" method=\"POST\" >\n					<div  id=\"fila\" >\n						 <div   id=\"dato_login\" align=\"center\" ><img src=\"images/lock.png\">\n						      <div style=\"font-size:30px;\" id=\"cabecera\"><span class=\"header2\">Datos de Acceso</span></div>\n						 </div>\n					  \n					    \n					</div>\n				       \n				       <hr>\n					 \n				     \n					  <div style=\"font-size:14px;\">\n						<strong>Login:</strong><input type=\"text\"  name=\"login\" id=\"login\" size=\"12\" >\n						<strong>Clave:</strong><input type=\"password\"  name=\"clave\" id=\"clave\" size=\"12\" >\n						<input  type=\"button\" value=\"enviar\" onClick=\"consulta_ajax()\" />\n					  </div>\n					  <div id=\"dato_login\"  align=\"center\"  ><span id=\"la_consulta\"></div>\n				   </form>\n			    </div><!---cuadro_login ------>\n		     <!--------------------------fin contenido a mostrar------------------------------------------>\n		     </div><!---fin modal-content ------>\n\n		<!-- preload the images -->\n		<div style='display:none'>\n			<img src='../img/x.png' alt='' />\n		</div>\n	\n	\n<!-- llamado a la libreria jQuery, para la ventana SimpleModal and Basic JS files -->\n<script type='text/javascript' src='jquery.js'></script>\n<script type='text/javascript' src='jquery.simplemodal.js'></script>\n<script type='text/javascript' src='basic.js'></script>\n\n</body>\n</html>\n",
+			"file": "/media/9A3C28163C27EBC7/ventanamodal/acceso.html",
+			"file_size": 4157,
+			"file_write_time": 130844677807266740,
+			"settings":
+			{
+				"buffer_size": 4026,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/etc/apache2/conf.d/charset",
+		"/media/hdportatil/programacionWEB/micv_web/assets/sass/main.scss",
+		"/media/9A3C28163C27EBC7/ventanamodal/acceso.html",
+		"/var/www/proyectos/sigre/js/func_menu.js",
+		"/var/www/proyectos/auditoria/reg_nocomf2.php",
+		"/var/www/proyectos/auditoria/reg_activ_audit.php",
+		"/var/www/proyectos/sigre/reg_fact2.php",
+		"/var/www/proyectos/sigre/reg_fact.php",
+		"/var/www/proyectos/sigre/delete_user.php",
+		"/var/www/proyectos/auditoria/elimreg.php",
+		"/var/www/proyectos/auditoria/act_detalle_user_mant.php",
+		"/var/www/proyectos/sigre/js/checkcolor.js",
+		"/var/www/proyectos/sigre/accss_2.php",
+		"/var/www/proyectos/sigre/acceso.php",
+		"/var/www/proyectos/auditoria/reg_activ_audit2.php",
+		"/var/www/proyectos/sigre/localizar_prov_mant.php",
+		"/var/www/proyectos/sigre/js/activ_desac.js",
+		"/var/www/proyectos/sigre/elimreg.php",
+		"/var/www/proyectos/auditoria/detalle.php",
+		"/var/www/proyectos/control_studio/Ingres_part.php",
+		"/var/www/proyectos/sigre/localizar1.php",
+		"/var/www/proyectos/sigre/reg_user_audit.php",
+		"/var/www/proyectos/sigre/css/sddm.css",
+		"/var/www/proyectos/auditoria/index0.php",
+		"/var/www/proyectos/sigre/index0.php",
+		"/var/www/proyectos/sigre/js/ajax_cambia_status.js",
+		"/var/www/proyectos/sigre/js/xpmenuv21.js",
+		"/var/www/proyectos/sigre/js/ajax_cambia_status",
+		"/var/www/proyectos/sistema nomina/js/funcion2.js",
+		"/var/www/proyectos/sistema nomina/js/funciones.js",
+		"/var/www/proyectos/sistema nomina/calc_nomin1.php",
+		"/var/www/proyectos/sistema nomina/calc_nomin2.php",
+		"/home/uuc201/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/uuc201/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/proyectos/plantilla_auditoria/index0.php",
+		"/var/www/proyectos/sistema nomina/default.php",
+		"/var/www/proyectos/sistema nomina/acceso.php",
+		"/var/www/proyectos/auditoria/acceso.php",
+		"/var/www/proyectos/sigre/css/style_audit.css",
+		"/var/www/proyectos/plantilla_auditoria/css/demo.css",
+		"/var/www/proyectos/plantilla_auditoria/css/style_audit.css",
+		"/var/www/proyectos/sigre/ajaxtabs/ajaxtabs.js",
+		"/var/www/proyectos/control_studio/delete_parts4.php",
+		"/var/www/proyectos/sigre/cons_provee.php",
+		"/var/www/proyectos/auditoria/buscar_audit.php",
+		"/var/www/proyectos/plantilla_auditoria/css/sddm0.css",
+		"/var/www/proyectos/sigre/css/reset.css",
+		"/var/www/proyectos/sigre/ajaxtabs/ajaxtabs.css",
+		"/var/www/proyectos/sigre/ajaxtabs/jquery.ui.tabs.css",
+		"/var/www/proyectos/sigre/ajaxtabs/demos.css",
+		"/var/www/proyectos/sigre/css/demo.css",
+		"/var/www/proyectos/pruebas/dif/index.php",
+		"/var/www/proyectos/pruebas/dif/config.php",
+		"/var/www/proyectos/pruebas/dif/resetdatos.php",
+		"/var/www/proyectos/pruebas/dif/Default.php",
+		"/var/www/proyectos/sigre/reg_user_audit2.php",
+		"/var/www/proyectos/sigre/backup.php",
+		"/var/www/proyectos/sigre/reg_provee2.php",
+		"/var/www/proyectos/sigre/reg_provee.php",
+		"/var/www/proyectos/auditoria/calendario/index2.html",
+		"/var/www/proyectos/sigre/cons_perfuser.php",
+		"/var/www/proyectos/sigre/backup2.php",
+		"/var/www/proyectos/auditoria/reg_audit2.php",
+		"/var/www/proyectos/auditoria/reg_progcio_audit.php",
+		"/var/www/proyectos/sigre/conexion/Conectarse.php",
+		"/home/uuc201/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/uuc201/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/var/www/proyectos/sigre/conexion/Conexion1.php",
+		"/var/www/proyectos/pruebas/dif/doLogin.php",
+		"/var/www/proyectos/pruebas/dif/Default1.php",
+		"/var/www/proyectos/sigre/calendario/datepicker/datepicker/dp-icono.html",
+		"/var/www/proyectos/pruebas/bootstrack/ejerci1.html",
+		"/var/www/proyectos/pruebas/bootstrap-modal-master/index.html",
+		"/var/www/proyectos/sigre/css/niceforms-default.css",
+		"/var/www/proyectos/pruebas/bootstrap-modal-master/css/bootstrap-responsive.css",
+		"/media/9A3C28163C27EBC7/programacionWEB/bootstrack/bootstrap-modal-master/index.html",
+		"/var/www/proyectos/sigre/css/global.css",
+		"/var/www/proyectos/sigre/css/basic.css",
+		"/media/9A3C28163C27EBC7/programacionWEB/todo_wed_desing_develop/jquery/iu/Flat-UI-master/css/flat-ui.css",
+		"/var/www/proyectos/inventario/cfg/base.php",
+		"/var/www/proyectos/inventario/login.php",
+		"/var/www/proyectos/inventario/menu.php",
+		"/var/www/proyectos/inventario/contenido.php",
+		"/var/www/proyectos/inventario/index.php",
+		"/var/www/proyectos/inventario/control.php",
+		"/var/www/proyectos/inventario/default.php",
+		"/media/9A3C28163C27EBC7/programacionWEB/todo_wed_desing_develop/css/forms/index.html",
+		"/media/9A3C28163C27EBC7/programacionWEB/todo_wed_desing_develop/css/forms/css/screen.css",
+		"/var/www/proyectos/sistema nomina/css/stilo_div.css",
+		"/var/www/proyectos/auditoria/reg_user_audit.php",
+		"/var/www/proyectos/auditoria/css/niceforms-default.css",
+		"/var/www/proyectos/auditoria/css/sddm.css",
+		"/var/www/proyectos/sigre/css/estilo.css",
+		"/var/www/proyectos/inventario/logout.php",
+		"/var/www/resplaproyecto20_05_2015/control_p/accss_pasl.php",
+		"/var/www/proyectos/auditoria/buscar_report_acc.php",
+		"/var/www/proyectos/php.ini",
+		"/var/www/proyectos/control_p/accss_pasl.php",
+		"/var/www/prueba.php",
+		"/home/uuc201/.config/sublime-text-3/Packages/User/Plain text.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/proyectos/sigre/index0.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3370,
+								3370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/proyectos/sigre/buscar_user_mant.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/proyectos/sigre/buscar_procesar_fact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/proyectos/sigre/js/checkcolor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6813,
+								6813
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/proyectos/sigre/localizar_procesar_fact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/proyectos/tienda/index1.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/media/hdportatil/programacionWEB/micv_web/index_miCV_web.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7154,
+								7154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2626.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/media/hdportatil/programacionWEB/micv_web/assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28051,
+								28051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/proyectos/tienda/portada.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								829,
+								829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 484.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/proyectos/tienda/plantilla/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/var/www/proyectos/tienda/css/stilo_div.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1341,
+								1341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/var/www/proyectos/sigre/cons_fact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1347,
+								1347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/media/9A3C28163C27EBC7/ventanamodal/acceso.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4008,
+								4008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1433.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ajaxtabs.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

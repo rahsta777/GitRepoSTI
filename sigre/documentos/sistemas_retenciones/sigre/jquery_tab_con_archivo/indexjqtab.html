@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<title>New document</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+<!--<script type="text/javascript" src="jquery-ui-1.8.0.min.js"></script>-->
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$('#div-btn1').click(function(){
+                      
+                    
+                    $.ajax({
+                        type: "POST",
+                        url: "pagina1.html",
+                        success: function(a) {
+                            //$('#central').slideDown('slow', function() {
+                                $('#central').html(a);
+                              //});
+                            /*$('#content').css('background-image', 'url(images/fondo.gif)');*/
+                            /*$('#central').css('background-color', 'black'); 
+                            $('#central').css('color', 'white'); 
+                            $('#central').css('border', '1px white');*/
+                            
+                        }
+                    });
+                });
+
+		$('#div-btn2').click(function(){
+
+		$.ajax({
+	            type: "POST",
+	            url: "pagina2.html",
+	       		success: function(a) {
+
+	       			$('#central').html(a);
+
+	          	}
+			});
+		});
+                
+                $('#div-btn3').click(function(){
+
+		$.ajax({
+	            type: "POST",
+	            url: "pagina3.html",
+	       		success: function(a) {
+
+	       			$('#central').html(a);
+
+	          	}
+			});
+		});
+                
+                $('#div-btn4').click(function(){
+
+		$.ajax({
+	            type: "POST",
+	            url: "../modal_query.php",
+	       		success: function(a) {
+
+	       			$('#central').html(a);
+
+	          	}
+			});
+		});
+
+
+	});
+	</script>
+	<!-- Load jQuery, SimpleModal and Basic JS files -->
+<script type='text/javascript' src='/js/jquery.js'></script>
+<script type='text/javascript' src='../js/jquery.simplemodal.js'></script>
+<script type='text/javascript' src='../js/basic.js'></script>
+</head>
+<body>
+<div id="content">
+	<div id="header">Cabecera</div>
+	<div id="column-left">
+            <ul>
+                <li><a href="index.html" style="cursor:pointer;">Inicio</a></li>
+                <li><a href="#" id="div-btn1" style="cursor:pointer;">pagina1</a></li>
+                <li><a href="#" id="div-btn2" style="cursor:pointer;">Pagina2</a></li>
+                <li><a href="#" id="div-btn3" style="cursor:pointer;">pagina3</a></li>
+                <li><a href="#" id="div-btn4" style="cursor:pointer;">modal</a></li>
+            </ul>
+        </div>
+	<div id="central">
+            <div id="central-content">
+    <h1>Pagina principal</h1>
+    <p>Contenido de la página principal</p>
+</div>
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/proyectos/sigre/index0.php",
+			"settings":
+			{
+				"buffer_size": 41366,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/buscar_user_mant.php",
+			"settings":
+			{
+				"buffer_size": 1627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/buscar_procesar_fact.php",
+			"settings":
+			{
+				"buffer_size": 1637,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/localizar_procesar_fact.php",
+			"settings":
+			{
+				"buffer_size": 5992,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/js/checkcolor.js",
+			"settings":
+			{
+				"buffer_size": 10885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/auditoria/act_detalle_user_mant.php",
+			"settings":
+			{
+				"buffer_size": 25710,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/auditoria/elimreg.php",
+			"settings":
+			{
+				"buffer_size": 3683,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/proyectos/sigre/delete_user.php",
+			"settings":
+			{
+				"buffer_size": 11571,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/proyectos/sigre/localizar_prov_mant.php",
+		"/var/www/proyectos/sigre/js/activ_desac.js",
+		"/var/www/proyectos/sigre/elimreg.php",
+		"/var/www/proyectos/auditoria/detalle.php",
+		"/var/www/proyectos/sigre/js/checkcolor.js",
+		"/var/www/proyectos/control_studio/Ingres_part.php",
+		"/var/www/proyectos/sigre/localizar1.php",
+		"/var/www/proyectos/sigre/acceso.php",
+		"/var/www/proyectos/sigre/reg_user_audit.php",
+		"/var/www/proyectos/sigre/css/sddm.css",
+		"/var/www/proyectos/auditoria/index0.php",
+		"/var/www/proyectos/sigre/index0.php",
+		"/var/www/proyectos/sigre/js/ajax_cambia_status.js",
+		"/var/www/proyectos/sigre/js/xpmenuv21.js",
+		"/var/www/proyectos/sigre/js/func_menu.js",
+		"/var/www/proyectos/sigre/js/ajax_cambia_status",
+		"/var/www/proyectos/sistema nomina/js/funcion2.js",
+		"/var/www/proyectos/sistema nomina/js/funciones.js",
+		"/var/www/proyectos/sistema nomina/calc_nomin1.php",
+		"/var/www/proyectos/sistema nomina/calc_nomin2.php",
+		"/home/uuc201/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/uuc201/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/proyectos/plantilla_auditoria/index0.php",
+		"/var/www/proyectos/sistema nomina/default.php",
+		"/var/www/proyectos/sistema nomina/acceso.php",
+		"/var/www/proyectos/auditoria/acceso.php",
+		"/var/www/proyectos/sigre/css/style_audit.css",
+		"/var/www/proyectos/plantilla_auditoria/css/demo.css",
+		"/var/www/proyectos/plantilla_auditoria/css/style_audit.css",
+		"/var/www/proyectos/sigre/ajaxtabs/ajaxtabs.js",
+		"/var/www/proyectos/control_studio/delete_parts4.php",
+		"/var/www/proyectos/sigre/cons_provee.php",
+		"/var/www/proyectos/auditoria/buscar_audit.php",
+		"/var/www/proyectos/plantilla_auditoria/css/sddm0.css",
+		"/var/www/proyectos/sigre/css/reset.css",
+		"/var/www/proyectos/sigre/ajaxtabs/ajaxtabs.css",
+		"/var/www/proyectos/sigre/ajaxtabs/jquery.ui.tabs.css",
+		"/var/www/proyectos/sigre/ajaxtabs/demos.css",
+		"/var/www/proyectos/sigre/css/demo.css",
+		"/var/www/proyectos/pruebas/dif/index.php",
+		"/var/www/proyectos/pruebas/dif/config.php",
+		"/var/www/proyectos/pruebas/dif/resetdatos.php",
+		"/var/www/proyectos/pruebas/dif/Default.php",
+		"/var/www/proyectos/sigre/reg_user_audit2.php",
+		"/var/www/proyectos/sigre/accss_2.php",
+		"/var/www/proyectos/sigre/backup.php",
+		"/var/www/proyectos/sigre/reg_provee2.php",
+		"/var/www/proyectos/sigre/reg_provee.php",
+		"/var/www/proyectos/auditoria/calendario/index2.html",
+		"/var/www/proyectos/sigre/reg_fact.php",
+		"/var/www/proyectos/sigre/reg_fact2.php",
+		"/var/www/proyectos/sigre/cons_perfuser.php",
+		"/var/www/proyectos/sigre/backup2.php",
+		"/var/www/proyectos/auditoria/reg_audit2.php",
+		"/var/www/proyectos/auditoria/reg_progcio_audit.php",
+		"/var/www/proyectos/sigre/conexion/Conectarse.php",
+		"/home/uuc201/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/uuc201/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/var/www/proyectos/sigre/conexion/Conexion1.php",
+		"/var/www/proyectos/pruebas/dif/doLogin.php",
+		"/var/www/proyectos/pruebas/dif/Default1.php",
+		"/var/www/proyectos/sigre/calendario/datepicker/datepicker/dp-icono.html",
+		"/var/www/proyectos/pruebas/bootstrack/ejerci1.html",
+		"/var/www/proyectos/pruebas/bootstrap-modal-master/index.html",
+		"/var/www/proyectos/sigre/css/niceforms-default.css",
+		"/var/www/proyectos/pruebas/bootstrap-modal-master/css/bootstrap-responsive.css",
+		"/media/9A3C28163C27EBC7/programacionWEB/bootstrack/bootstrap-modal-master/index.html",
+		"/var/www/proyectos/sigre/css/global.css",
+		"/var/www/proyectos/sigre/css/basic.css",
+		"/media/9A3C28163C27EBC7/programacionWEB/todo_wed_desing_develop/jquery/iu/Flat-UI-master/css/flat-ui.css",
+		"/var/www/proyectos/inventario/cfg/base.php",
+		"/var/www/proyectos/inventario/login.php",
+		"/var/www/proyectos/inventario/menu.php",
+		"/var/www/proyectos/inventario/contenido.php",
+		"/var/www/proyectos/inventario/index.php",
+		"/var/www/proyectos/inventario/control.php",
+		"/var/www/proyectos/inventario/default.php",
+		"/media/9A3C28163C27EBC7/programacionWEB/todo_wed_desing_develop/css/forms/index.html",
+		"/media/9A3C28163C27EBC7/programacionWEB/todo_wed_desing_develop/css/forms/css/screen.css",
+		"/var/www/proyectos/sistema nomina/css/stilo_div.css",
+		"/var/www/proyectos/auditoria/reg_user_audit.php",
+		"/var/www/proyectos/auditoria/css/niceforms-default.css",
+		"/var/www/proyectos/auditoria/css/sddm.css",
+		"/var/www/proyectos/sigre/css/estilo.css",
+		"/var/www/proyectos/inventario/logout.php",
+		"/var/www/resplaproyecto20_05_2015/control_p/accss_pasl.php",
+		"/var/www/proyectos/auditoria/buscar_report_acc.php",
+		"/var/www/proyectos/php.ini",
+		"/var/www/proyectos/control_p/accss_pasl.php",
+		"/var/www/prueba.php",
+		"/home/uuc201/.config/sublime-text-3/Packages/User/Plain text.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/proyectos/sigre/index0.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29674,
+								29674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7603.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/proyectos/sigre/buscar_user_mant.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/proyectos/sigre/buscar_procesar_fact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								923,
+								923
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/proyectos/sigre/localizar_procesar_fact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 381.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/proyectos/sigre/js/checkcolor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6490,
+								6490
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2603.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/proyectos/auditoria/act_detalle_user_mant.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1907,
+								1907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/proyectos/auditoria/elimreg.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/proyectos/sigre/delete_user.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ajaxtabs.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

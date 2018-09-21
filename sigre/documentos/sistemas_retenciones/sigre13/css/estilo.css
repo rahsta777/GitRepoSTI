@@ -1,0 +1,314 @@
+
+#paginador{
+padding:6px;	
+	}
+.icono {
+    overflow: auto;
+    width:10%;
+    position: relative;
+} 
+    
+/*Credits: CSSpplay */
+/*URL: http://www.cssplay.co.uk/menus/pro_four */
+
+.menu4 { padding:2px; margin:0; list-style:none; height:10px; background:url(../images/pro_four0.gf);
+}
+.menu4 li {float:left;padding:0 10px 10px 10px;}
+.menu4 li a {display:block; float:left; height:40px; line-height:44px;color:#aaa; text-decoration:none;font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; text-align:center; padding:0 0 5px 4px; cursor:pointer; font-size:10px;}
+.menu4 li a b {float:left; display:block; }
+.menu4 li.current a {color:#fff; background:url(../images/pro_four2.gif);}
+.menu4 li.current a b {background:url(../images/pro_four2.gif) no-repeat right top;}
+.menu4 li a:hover {color:#000;font-stretch:expanded; background: url(../images/barr3.png)no-repeat right top ;}
+.menu4 li a:hover b {background:url(../images/barr3.png) no-repeat right top;}
+.menu4 li.current a:hover {color:#fff; background: url(../images/barr3.png); cursor:default;}
+.menu4 li.current a:hover b {background:url(../images/barr3.png) no-repeat right top;}
+
+span{ margin-right:4px;
+	 
+	
+	display: inline-block;
+    zoom: 2;
+    display: inline;
+    vertical-align: baseline;
+   
+    text-decoration: none;
+    font: 12px Arial;
+    padding: .5em .9em .5em;
+    
+  
+   
+	border-radius:3px;
+	color: black;
+	border: solid 1px #000;
+    background: #CCC;
+	}
+#paginador a{
+	display: inline-block;
+    zoom: 2;
+    display: inline;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-decoration: none;
+    font: 12px Arial;
+    padding: .5em 1em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	border-radius:3px;
+	color: #d7d7d7;
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+#paginador input{
+    display: inline-block;
+    zoom: 2;
+    display: inline;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-decoration: none;
+    font: 12px Arial;
+    padding: .5em 1em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	border-radius:3px;
+	color: #d7d7d7;
+	
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+    outline: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+}
+#paginador a:hover input:hover {
+   text-decoration: none;
+   background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+    background: -moz-linear-gradient(top,  #444,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+#paginador input:hover {
+   text-decoration: none;
+   background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+    background: -moz-linear-gradient(top,  #444,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+
+.cabezera{
+   
+	width:100%;
+	height:70px;
+	margin-top:0px;
+	margin-left:0px;
+	color:white;
+	padding:8px;
+    border-radius:1px;
+	text-align:left;
+	font-size:16px;
+	font-family:arial;
+	border: solid 1px #333;
+	border-radius: 60px 60px 10px 10px  ;
+    /*esto me cambia el tono superior de la Barra */
+	background: -webkit-gradient(linear, left top, left bottom, from(#E93C4E), to(#000));
+	background: -moz-linear-gradient(top,  #E93C4E,  #000);
+    /*esto me cambia el tono inferior de la Barra */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.inv_cabezera{
+   
+	width:100%;
+	height:30px;
+	margin-top:0px;
+	margin-left:0px;
+	color:white;
+	padding:8px;
+	border-radius:1px;
+	text-align:left;
+	font-size:16px;
+	font-family:arial;
+	border: solid 1px #333;
+	border-radius: 10px 10px 60px 60px  ;
+
+    /*esto me cambia el tono superior de la Barra */
+  
+    background: -moz-linear-gradient(top,  #0080FF,  #000);
+   	background: -webkit-gradient(linear, left top, left bottom, from(#0080FF), to(#000));
+    /*esto me cambia el tono inferior de la Barra */
+	  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+}
+	  
+	  
+
+.cabezera a{
+ border:none;
+ padding: 6px;
+ text-decoration: none;
+ font-family: arial black;
+ color:#CCC;
+    
+}
+.cabezera a:hover {
+    color: red;
+	cursor: pointer;
+}
+.carrito{
+float:right;
+}
+
+.car{
+float:right;
+}
+.contenedor{
+     background:white;
+	  /*width:608px;*/
+	 width:78%;
+     overflow: auto;
+	  margin:auto;
+	 margin-top:20px;
+ padding-top:50px;
+ padding-left:250px;
+  border:1px solid #E2E2E2;
+       
+	 /*background:red;*/
+
+}
+.caja{
+     background:white;
+	 float:left;
+	 /*width:150px;*/
+	 width:180px;
+	 
+	 height:270px;
+	 text-align:center;
+	 border:1px solid #E2E2E2;
+	 border-radius:10px;
+	 font-family:arial;
+	 
+}
+
+.cajaSola{
+    margin:10px;
+     background:white;
+	 float:left;
+	 width:30%;
+	 height:400px;
+	 text-align:center;
+      alignment-adjust: central;
+	 border:1px solid #E2E2E2;
+	 border-radius:10px;
+	 font-family:arial;
+      box-shadow:1px 1px 2px rgba(255,255,133);opacity:.90;
+}
+.cajaDes{
+     background:white;
+	 float:left;
+	 width:20%;
+	 height:150%;
+	 text-align: center;
+	 border:1px solid #E2E2E2;
+	 border-radius:10px;
+	 font-family:arial;
+      box-shadow:1px 1px 2px rgba(255,255,133);opacity:.90;
+      margin:10px;
+}
+#conte_des_esp{
+    margin:10px;
+     background:white;
+	 float:left;
+	 width:90%;
+	 height:150%;
+	 text-align: justify;
+	 border:1px solid #E2E2E2;
+	 border-radius:10px;
+	 font-family:arial;
+      box-shadow:1px 1px 2px rgba(255,255,133);opacity:.90;
+}
+.cajaes{
+    margin:10px;
+     background:white;
+	 float:left;
+	 width:90%;
+	 height:auto;
+	 text-align:center;
+	 border:1px solid #E2E2E2;
+	 border-radius:10px;
+	 margin-bottom:15px; 
+	 font-family:arial;
+     box-shadow:1px 1px 2px rgba(255,255,133);
+	opacity:.90;
+}
+
+.vistacarrito{
+    background-color: #EBEBEB;
+	border: 1px solid #666;
+	padding-left: 120px;
+	width: 500px;
+	margin: auto;
+	margin-top:20px;
+}
+
+/* Botón */
+
+.boton {
+    display: inline-block;
+    zoom: 2;
+    *display: inline;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-decoration: none;
+    font: 12px Arial;
+    padding: .5em 1em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.boton:hover { text-decoration: none; }
+
+/* Redondez */
+
+.redondo {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+ 
+/* Color */
+
+.negro {
+    color: #d7d7d7;
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.negro:hover {
+    background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+    background: -moz-linear-gradient(top,  #444,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+
+.num{
+     background:white;
+	 float:left;
+	 /*width:150px;*/
+	 width:20px;
+	 
+	 height:20px;
+	 text-align:center;
+	 border:1px solid #E2E2E2;
+	/* border-radius:10px;
+	 font-family:arial;*/
+	
+}
+/* usar el boton <a href="#" class="boton negro redondo">Comprar</a>*/

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Calendario</title>
+
+<script src="js/jquery-1.5.2.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/demos.css" type="text/css">
+<link rel="stylesheet" href="css/jquery.ui.all.css" type="text/css">
+<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="js/jquery.ui.datepicker.js"></script>
+
+ <script>
+	$(function() {
+		$( "#capass1" ).datepicker({ 
+		 autoSize: true,
+            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+            dayNamesMin: ['Dom', 'Lu', 'Ma', 'Mi', 'Je', 'Vi', 'Sa'],
+            firstDay: 1,
+            monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+            monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
+            dateFormat: 'dd-mm-yy',
+            changeMonth: true,
+            changeYear: true,
+			yearRange: "-90:+0",
+			
+		
+		});
+		
+		
+		
+	});
+	</script>
+    <script>
+	$(function() {
+		$( "#capass2" ).datepicker({ 
+		 autoSize: true,
+            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+            dayNamesMin: ['Dom', 'Lu', 'Ma', 'Mi', 'Je', 'Vi', 'Sa'],
+            firstDay: 1,
+            monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+            monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
+            dateFormat: 'dd-mm-yy',
+            changeMonth: true,
+            changeYear: true,
+			yearRange: "-90:+0",
+			
+		
+		});
+		
+		
+		
+	});
+	</script>
+</head>
+
+<body>
+
+
+<label>Fecha</label><input name="capass" type="text" value="Aqui" class="reporte_termino" id="capass1" size="12"/>
+<label>Fecha</label><input name="capass" type="text" class="reporte_termino" id="capass2" size="12"/>
+
+	
+   </body>  
+</html>  
+  

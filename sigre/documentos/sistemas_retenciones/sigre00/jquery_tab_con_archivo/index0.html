@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Ajax Link</title>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.6.css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.6.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$('#div-btn1').click(function(){
+
+			$.ajax({
+	            type: "POST",
+	            //data: dataString,
+	            url: "pagina1.php",
+	       		success: function(a) {
+
+	       			$('#div-results').html(a);
+
+	          	}
+			});
+		});
+
+		$('#div-btn2').click(function(){
+
+			$.ajax({
+	            type: "POST",
+	            url: "pagina2.php",
+	       		success: function(a) {
+
+	       			$('#div-results').html(a);
+
+	          	}
+			});
+		});
+
+
+	});
+	</script>
+</head>
+<body>
+<a id="div-btn1" style="cursor:pointer;">Ver el archivo que contiene hola</a> |
+<a id="div-btn2" style="cursor:pointer;">Ver el archivo que contiene adios</a>
+
+<div id="div-results"></div>
+</body>
+</html>

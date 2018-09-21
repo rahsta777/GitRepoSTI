@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Datepicker - JQuery</title>
+	<link rel="stylesheet" href="css/jquery.ui.all.css">
+	<script src="js/jquery-1.4.4.js"></script>
+	<script src="js/jquery.ui.core.js"></script>
+	<script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.ui.datepicker.js"></script>	
+	<script src="js/jquery.ui.datepicker-es.js"></script>
+	<script src="js/jquery.ui.datepicker-fr.js"></script>
+	<script src="js/jquery.ui.datepicker-it.js"></script>
+	<script src="js/jquery.ui.datepicker-en-GB.js"></script>
+	<script src="js/jquery.ui.datepicker-pt.js"></script>
+	
+	<link rel="stylesheet" href="css/demos.css">
+	<script>
+	$(function() {
+		$.datepicker.setDefaults( $.datepicker.regional[ "es" ] );
+		$( "#datepicker" ).datepicker( $.datepicker.regional[ "es" ] );
+		$( "#locale" ).change(function() {
+			$( "#datepicker" ).datepicker( "option",
+				$.datepicker.regional[ $( this ).val() ] );
+		});
+	});
+	</script>
+</head>
+<body>
+
+<div class="demo">
+<h2>Datepicker por Idioma!</h2>
+	
+<p><h3>Idioma:</h3> <select id="locale">			
+		<option value="es" selected="selected">Espa&ntilde;ol</option>
+		<option value="fr">Frances</option>
+		<option value="en-GB">Ingles</option>
+		<option value="it">Italiano</option>
+		<option value="pt">Portugues</option>	
+	</select>
+	<h3>Fecha:</h3> <input type="text" id="datepicker"/>&nbsp;
+	</p>
+
+</div>
+
+</body>
+</html>

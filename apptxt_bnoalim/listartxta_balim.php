@@ -63,10 +63,10 @@
 									/*********** }**************************************/
 									
 									printf("<td bgcolor='#9DA7C6'><font size='3'>&nbsp;%s</td>    <td ><font size='3'>&nbsp;%s</td> <td bgcolor='#9DA7C6'><font size='3'>&nbsp;%s</td> 
-						            </tr>",$Ndocumento_wt, $TotalPagar_array, $Periodo_wt);
-									$registro = $Ndocumento_wt . $separator . $TotalPagar_array . $Periodo_wt . $separator  . $jump;
-        							fwrite($fp,$registro);
-        							chmod($fp, 0777);
+				</tr>",$Ndocumento_wt, $TotalPagar_array, $Periodo_wt);
+				$registro = $Ndocumento_wt . $separator . $TotalPagar_array . $Periodo_wt . $separator  . $jump;
+        			fwrite($fp,$registro);
+        			chmod($fp, 0777);
         							
 										
 							}

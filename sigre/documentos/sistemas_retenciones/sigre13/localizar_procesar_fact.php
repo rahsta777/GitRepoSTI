@@ -1,0 +1,152 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<html>
+<head>
+
+
+</head>
+<body >
+ 	    <?php if (isset($_GET["proceso"])){ ?>
+	   
+        <?php } ?>
+	   <table width="700" border="0" align="center" class="contacto_listar_id">
+	    <tr>
+	      <td colspan="9" align="center" bgcolor="#3151B2" class="box1" ><strong >LISTADO</strong>  </td>
+	    </tr>
+	    <tr bgcolor="#bf8b90" style='color:#fff;font:font-family:bold'align="center">
+    	      <td  >No.Id</td>
+            <td >Nombre Razon Social</td>
+    	      <td width="144">Representante</td>
+    	     <!--td >fecha</td-->
+        </tr>      
+             <?php 
+     if (isset($_GET["var13"]))
+        {      
+        
+        include("conexion/Conexion1.php");
+        $link=Conectarse(); 
+        $buscar=($_GET["var13"]);
+        
+       //$procso=($_GET["proceso"]);
+        
+     // echo "paso buscar el campo id:".$buscar."<br>";  
+       /*echo "paso buscar tipo: (".$buscar2.")";*/
+	 // echo "paso proceso: (".$procso.")";
+        //echo "paso la busca ".$buscar; $busqueda=mysql_query("SELECT * from viento  WHERE  nombre LIKE '%".$buscar."%' OR tipo_art LIKE '%".$buscar."%' UNION ALL SELECT * from cuerda  WHERE  nombre LIKE '%".$buscar."%' OR tipo_art LIKE '%".$buscar."%' UNION ALL SELECT * from percusion  WHERE  nombre LIKE '%".$buscar."%' OR tipo_art LIKE '%".$buscar."%' UNION ALL SELECT * from electronicos  WHERE  nombre LIKE '%".$buscar."%' OR tipo_art LIKE '%".$buscar."%' "); 
+    	//$busqueda=mysql_query("SELECT * from  tab3_inscrip, tab2_inscrip WHERE ced_doc LIKE '%".$buscar."%' OR Nomb_doc LIKE '%".$buscar."%' OR nomb_alumn LIKE '%".$buscar."%' OR ced_represe_alumn LIKE '%".$buscar."%'");
+       
+/*if (mysql_num_rows(mysql_query("SELECT num_detalle FROM d001_programa_aud WHERE num_detalle	='" . $_GET["var1"] . "'", $link))==true) {*/
+            //echo "paso buscar tipo: (".$buscar2.")";
+
+        /* UNION ALL SELECT * FROM  j005t_planes WHERE num_planes LIKE '%".$buscar."%' OR descrp_planes LIKE '%".$buscar."%' ");*/
+         /*____________________________________________________________________________________*/
+      
+	      $busqueda=mysql_query("SELECT * FROM tbl_prov  WHERE razon_prov LIKE '%".$buscar."%' or repres_prov LIKE '%".$buscar."%' or prov_rif LIKE '%".$buscar."%'");
+		 
+		
+								/*___________________________________________________________________________*/  
+      
+         if($busqueda ==FALSE) 
+                {
+                 die(mysql_error()); // TODO: better error handling
+        
+                 } /*fin del if error sql*/ 
+               // $res = mysql_query($busqueda,$link) or die("Error en: $busqueda: " . mysql_error()); 
+           while($filas=mysql_fetch_array($busqueda))
+           {
+             if(isset($filas['prov_rif'])) 
+               {
+                                $id=$filas['prov_rif'];
+                                $nomb_prov=$filas['razon_prov'];
+                                $descrip1=$filas['repres_prov'];
+                                
+                                //$fecha1=$filas['fe_fecha'];
+                  }
+        		
+            	   				
+    		         ?>
+    	       <tr>
+               <?php 
+                printf("<td><font size='2'>&nbsp;%s</td> <td><font size='2'>&nbsp;%s</td> <td><font size='2'>&nbsp;%s</td>  ", $id, $nomb_prov, $descrip1);
+
+                      
+              // echo ('<a href="treino.php?id="' . $id  . '">' .  $localiza_imagen . " Usuario " .  $ced_alum."</a>" ); ?>
+    						     
+    					
+    					 <td>
+       <!---------------=================================================================================-------------------->         
+                     
+
+                      <div id='content'>
+                         <!--input name="id_local" type="hidden" id="id_local" value="<?php echo $id;?>" /-->
+									       <div id='basic-modal'>
+                            <input  style="background:url(images/fondo_input/fondo_input_g.png);width:100px;height:30px ;" type="button"  name='basic' value='Facturas' class='basic'/>
+                         </div> 
+                      </div>
+                      
+                        <!-- modal content -->
+         <!-- modal content -->
+        <!-------------------------------------------------- modal content -------------------------------------------->
+    <div id="basic-modal-content">
+      
+    <?php
+      $link=Conectarse(); 
+              
+            $sql00="SELECT * FROM tbl_factprov ";
+      $resultado_sql00=mysql_query($sql00,$link);
+                $nfilas=mysql_num_rows($resultado_sql00);
+               
+                
+                    
+
+                      print ("<TABLE A align='center' cellspacing='0'cellpadding=7 width='400px' border='0' style='font-size:12px'>\n");
+                           
+               print ("<TR  class='contacto_v'>\n");
+               print ("<TH >Id prov</TH>\n");
+               print ("<TH colspan='3'>Id_prove</TH>\n");
+               
+              
+               print ("</TR>\n");
+               for ($i=0; $i<$nfilas; $i++)
+                        {
+                        $row00=mysql_fetch_array($resultado_sql00);
+                  printf("<tr bgcolor='#FFFFFF'>   <td><font size='2'><img src='%s' width ='60' height='60'> </td> <td><font size='2'><img src='%s' width ='60' height='60'> ;</td></tr>",$row00['idprov'], $row00['idfact']);
+                  
+                        
+                                     }
+                                                 print ("</TABLE>");  
+                                               
+?>       
+</div><!-------------------------------------------------- fin div modal content -------------------------------------------->
+   
+                <!-- preload the images -->
+    <div style='display:none'>
+      <img src='images/x.png' alt='' />
+    </div>
+  <!--------------------------------------------------fin modal content -------------------------------------------->   
+    			<!--==================================================================================================================-->
+    			
+            </td>
+           
+           
+                    
+    				
+    			  
+    			</tr>
+    			<p>
+    		   <?php } /*fin del while sql*/ 
+          }
+           
+           ?> 
+       
+           <tr><td>
+           
+           </td><td>
+	   <!--a href="buscar.php?var2=<?php echo $localiza_x ?>&var1=<?php echo $localiza_x2 ?>&proceso=<?php echo $proceso ?>" > <input type="button" style="background:url(images/fondo_input/fondo_input_g.png));width:150px; height:30px ;" value="[Volver a Buscar]" ></a></td></tr-->
+	      <!---/*---------------fin while fechtarray-----------------------------------------------*/-->
+	      
+	      </table>
+                      
+
+
+</body>
+</html>
